@@ -133,14 +133,6 @@ export const pageQuery = graphql`
           ctaLink
         }
         about {
-          blurbs {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-              }
-            }
-            text
-          }
           heading
           description
         }
