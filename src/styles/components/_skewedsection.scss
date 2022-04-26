@@ -1,0 +1,76 @@
+.skewedSection {
+    background-image: linear-gradient(45deg, $darkblue, $darkblue);
+    margin-top: $section-padding;
+    height: auto;
+    padding-bottom: $section-padding;
+    transform: skewY(-7deg);
+    margin-left: -50vw;
+    padding-left: 50vw;
+    margin-right: -50vw;
+    padding-right: 50vw;
+
+    &__container {
+        padding-top: 30vh;
+        transform: skewY(7deg);
+        margin: auto;
+        display: flex;
+        max-width: min(1200px, 80%);
+
+        &--noFlex {
+            padding-top: 15rem;
+            transform: skewY(7deg);
+            margin: auto;
+            max-width: min(1200px, 80%);
+        }
+    }
+
+    &__baLogo {
+        position: absolute;
+        right: -30%;
+        top: 0;
+        transform: scale(1.7);
+        opacity: 0.4;
+    }
+}
+
+.imageHighlight {
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    img {
+        width: 60%;
+        border-radius: 20px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h6 {
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+
+.nextsteps {
+    height: fit-content;
+}
+
+.nextsteps:after {
+    width: 100%;
+    content: "";
+    display: block;
+    height: 300px;
+    position: absolute;
+    bottom: -90px;
+    left: 0;
+    -webkit-transform: skewY(7deg);
+    -moz-transform: skewY(7deg);
+    -ms-transform: skewY(7deg);
+    -o-transform: skewY(7deg);
+    transform: skewY(7deg);
+    background-color: $darkblue;
+    z-index: -1;
+}
+
+@import "./mobile/skewedsection";

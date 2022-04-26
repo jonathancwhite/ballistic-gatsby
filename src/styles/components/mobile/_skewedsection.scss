@@ -1,0 +1,38 @@
+@media screen and (max-width: 960px) {
+    .skewedSection {
+        margin-top: $section-padding / 2;
+        padding-bottom: $section-padding / 2;
+        &__container {
+            max-width: 90%;
+            margin: auto;
+            padding-top: 15vh;
+            &--noFlex {
+                max-width: 90%;
+                margin: auto;
+                padding-top: 15vh;
+
+                .simpleSection.darkbg.col-70 {
+                    padding-bottom: 3rem;
+                }
+            }
+
+            .simpleSection.darkbg.col-50 {
+                padding-bottom: 3rem;
+            }
+
+        }
+
+        &__baLogo {
+            display: none;
+        }
+    }
+
+    .col-50, .col-70 {
+        width: 100%;
+    }
+
+    .imageHighlight {
+        display: none;
+    }
+
+}

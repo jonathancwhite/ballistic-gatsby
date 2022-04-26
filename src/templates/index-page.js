@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
+import Hero from '../components/Global/Hero';
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
@@ -22,7 +23,13 @@ export const IndexPageTemplate = ({
 
   return (
     <div>
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
+      {/* <FullWidthImage img={heroImage} title={title} subheading={subheading} /> */}
+      <Hero 
+        pageTitle={title}
+        pageSubText={subheading}
+        showcaseImage={image}
+        showcaseAlt={imageAlt}
+      />
       <section className="section section--gradient">
         <div className="container">
           <div className="section">

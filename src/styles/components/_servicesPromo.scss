@@ -1,0 +1,54 @@
+.servicesPromo {
+    margin-top: 20vh;
+    padding-bottom: $section-padding;
+    &__container {
+
+    }
+
+    &__heading {
+        h4 {
+            color: $lightblue;
+            font-weight: 700;
+        }
+        h2 {
+            width: 40%;
+            padding-top: 1rem;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+
+    &__copy {
+        display: flex;
+    }
+
+    &__column {
+        flex: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 1.5rem;
+        h4 {
+            padding-bottom: 1rem;
+        }
+    }
+
+    &__cta {
+        padding-top: 1rem;
+        align-self: flex-end;
+        a {
+            font-weight: 700;
+        }
+    }
+}
+
+.placeholder-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #868686;
+    align-self: center;
+    margin: 2rem 0;
+}
+
+@import "./mobile/servicesPromo";

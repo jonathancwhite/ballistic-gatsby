@@ -1,0 +1,36 @@
+@media screen and (max-width: 960px) {
+    $section-padding: 8rem;
+    h6 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: $subheading-size--mobile;
+    }
+
+    h2 {
+        font-size: $heading-size--mobile;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .centeredText {
+        text-align: center;
+        p {
+            padding-top: 1rem;
+            width: 80%;
+            margin: auto;
+        }
+        padding-bottom: $section-padding;
+    }
+
+    .horizontalImg {
+        display: none;
+    }
+
+    .footer-spacing-fix {
+        margin-top: 6rem;
+    }
+}

@@ -1,0 +1,59 @@
+@media screen and (max-width: 960px) {
+    .expertSection {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .expertContainer {
+        width: 100%;
+    }
+
+    .teamMembers {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .openings {
+        max-width: 90%;
+        margin: auto;
+
+        .centeredText {
+            padding-bottom: 2rem;
+        }
+
+        .openPositions {
+            width: 100%;
+        }
+    }
+
+    .position {
+        padding: unset;
+        max-width: 100%;
+        h4 {
+            padding: 1rem;
+        }
+        &__desc {
+            padding: 0 1rem 2rem 1rem;
+        }
+        
+    }
+
+    .benefits {
+        .container {
+            max-width: 90%;
+            margin: auto;
+        }
+        &__list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__item {
+            h4 {
+                width: 70%;
+            }
+        }
+    }
+
+}

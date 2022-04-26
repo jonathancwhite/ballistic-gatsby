@@ -1,0 +1,33 @@
+@media screen and (max-width: 960px) {
+    .latestProject {
+        width: 90%;
+        margin: auto;
+        text-align: left;
+    }
+    
+    .caseStudy {
+        display: grid;
+        max-width: 90%;
+        margin: auto;
+        img {
+            display: none;
+        }
+
+        .col-50 {
+            width: 100%;
+        }
+    }
+
+    .otherProjects {
+        width: 90%;
+        margin: auto;
+    }
+
+    .projectGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1fr, 5);
+        gap: 2rem;
+        text-align: center;
+    }
+}

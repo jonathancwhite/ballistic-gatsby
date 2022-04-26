@@ -1,0 +1,15 @@
+@media screen and (max-width: 800px) {
+    .skewed {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: max(30vh, 175px);
+        z-index: -1;
+        transform: skewY(-7deg);
+        transform-origin: top left;
+    }
+
+}

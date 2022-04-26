@@ -1,0 +1,93 @@
+.expertSection {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: $section-padding;
+}
+
+.expertContainer {
+    width: 65%;
+}
+
+.position {
+    width: 100%;
+    background: #fff;
+    box-shadow: $shadow-single;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    position: relative;
+
+    h4 {
+        padding-bottom: 1rem;
+    }
+
+    &__desc {
+        width: 90%;
+    }
+
+    &__link{
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+        text-decoration: none;
+        font-weight: $heading-weight;
+        color: #000;
+    }
+
+    &__location {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        color: $lightText;
+        svg {
+            vertical-align: baseline;
+            font-size: 12px;
+            color: $lightText--icon;
+        }
+    }
+}
+
+.benefits {
+    background-color: $darkblue;
+    padding: 8rem 0;
+    margin-top: $section-padding;
+    color: #fff;
+    &__heading{
+        h2 {
+            padding-bottom: 2rem;
+        }
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        img {
+            max-width: 100px;
+            max-height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        h4 {
+            padding-left: 1rem;
+            text-transform: uppercase;
+            max-width: 80%;
+        }
+    }
+
+    &__icon {
+        width: 100px;
+        height: 100px;
+        background: #d4d4d4;
+        border-radius: 50%;
+    }
+}
+
+
+
+@import "./mobile/team";

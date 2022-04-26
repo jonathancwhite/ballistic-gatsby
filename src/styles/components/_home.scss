@@ -1,0 +1,33 @@
+.hero {
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+}
+
+.page {
+    &__buttons {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        a {
+            margin-right: 2rem;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    &__title {
+        font-weight: $heading-weight;
+    }
+    &__showcase {
+        img {
+            width: 100%;
+            border-radius: 20px;
+        }
+    }
+}
+
+@import "./mobile/home";

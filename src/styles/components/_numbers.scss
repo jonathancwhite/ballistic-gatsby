@@ -1,0 +1,12 @@
+.numbers {
+    &__container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    p {
+        color: #fff;
+        padding-right: 2rem;
+    }
+}
+
+@import "./mobile/numbers";

@@ -1,0 +1,21 @@
+@media screen and (max-width: 800px) {
+    .hero {
+        display: flex;
+        &__copy {
+            padding: 0 2rem;
+        }
+        
+    }
+
+    .page {
+        &__showcase {
+            display: none;
+        }
+        &__title {
+            font-size: 44px;
+        }
+        &__subtext {
+            font-size: 16px;
+        }
+    }
+}

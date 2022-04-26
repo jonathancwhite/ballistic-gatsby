@@ -1,9 +1,10 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+title: Not just another opinion
+image: /img/showcase/pahq-showcase.png
+imageAlt: 'Power Athlete Showcase - Screenshot of site'
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: The best of the best trust Ballistic with their ecommerce needs. We pride ourselves on creating the best solution for you, without all the bullsh*t that comes along with it. We are the gold standard for Optimized Ecommerce.
 mainpitch:
   title: Why Kaldi
   description: >

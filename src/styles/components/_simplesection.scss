@@ -1,0 +1,80 @@
+.simpleSection {
+    padding-bottom: $section-padding;
+    &__container {
+        max-width: 1200px;
+        margin: auto;
+    }
+    &__heading {
+        padding-bottom: 2rem;
+        h4 {
+            font-size: $subheading-size;
+            font-weight: 600;
+        }
+
+        h2 {
+            width: 70%;
+            padding-top: 1rem;
+            font-size: $heading-size;
+            font-weight: $heading-weight;
+        }
+    }
+    &__copy {
+        display: flex;
+        padding-bottom: 2rem;
+
+        &--secondary {
+            padding-top: calc($section-padding / 2);
+            display: flex;
+            gap: 2rem;
+        }
+    }
+
+    &__column {
+        flex: 50%;
+        padding-right: 3rem;
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+
+    &__single {
+        width: 80%;
+    }
+
+}
+
+.col-50, .no-image {
+    width: 50%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.coreValues {
+    color: #fff;
+    .simpleSection__container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .simpleSection__container {
+        width: 100%;
+    }
+    .simpleSection__heading,
+    .simpleSection__copy {
+        width: 60%;
+    }
+
+    .simpleSection__coreValue {
+        margin-top: $section-padding;
+        width: calc(1200px / 3);
+        margin-bottom: 3rem;
+        p {
+            margin-top: 1rem;
+            width: 85%;
+        }
+    }
+}
+
+@import "./mobile/simplesection";
