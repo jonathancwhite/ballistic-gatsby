@@ -126,11 +126,31 @@ export const pageQuery = graphql`
         heroCTATitle
         heroCTALink
         brands {
-          brandLogo1
-          brandLogo2
-          brandLogo3
-          brandLogo4
-          brandLogo5
+          brandLogo1 {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
+          }
+          brandLogo2 {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
+          }
+          brandLogo3 {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
+          }
+          brandLogo4 {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
+          }
+          brandLogo5 {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
+          }
         }
         mainpitch {
           heading
