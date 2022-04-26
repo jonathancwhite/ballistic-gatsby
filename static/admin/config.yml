@@ -53,11 +53,19 @@ collections:
           - { label: Subheading, name: subheading, widget: string }
           - { label: Hero CTA Title, name: heroCTATitle, widget: string }
           - { label: Hero CTA Link, name: heroCTALink, widget: string }
-          - { label: Brand Logo 1, name: brandLogo1, widget: image }
-          - { label: Brand Logo 2, name: brandLogo2, widget: image }
-          - { label: Brand Logo 3, name: brandLogo3, widget: image }
-          - { label: Brand Logo 4, name: brandLogo4, widget: image }
-          - { label: Brand Logo 5, name: brandLogo5, widget: image }
+          - {
+            label: Brand Showcase,
+            name: brands,
+            widget: object,
+            fields: 
+            [
+              { label: Brand Logo 1, name: brandLogo1, widget: image }
+              { label: Brand Logo 2, name: brandLogo2, widget: image }
+              { label: Brand Logo 3, name: brandLogo3, widget: image }
+              { label: Brand Logo 4, name: brandLogo4, widget: image }
+              { label: Brand Logo 5, name: brandLogo5, widget: image }
+            ]
+          }
           - {
               label: Mainpitch,
               name: mainpitch,

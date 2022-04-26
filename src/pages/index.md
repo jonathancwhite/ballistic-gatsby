@@ -10,11 +10,12 @@ subheading: The best of the best trust Ballistic with their ecommerce needs. We
   Ecommerce.
 heroCTATitle: "Let's talk "
 heroCTALink: /contact-us
-brandLogo1: /img/partner-logos_bigcomm.png
-brandLogo2: /img/partner-logos_bigcomm.png
-brandLogo3: /img/partner-logos_bigcomm.png
-brandLogo4: /img/partner-logos_bigcomm.png
-brandLogo5: /img/partner-logos_bigcomm.png
+brands:
+  brandLogo1: /img/partner-logos_bigcomm.png
+  brandLogo2: /img/partner-logos_bigcomm.png
+  brandLogo3: /img/partner-logos_bigcomm.png
+  brandLogo4: /img/partner-logos_bigcomm.png
+  brandLogo5: /img/partner-logos_bigcomm.png
 mainpitch:
   heading: Creating the most efficient solutions for you and your clients.
   subheading: Optimized Ecommerce

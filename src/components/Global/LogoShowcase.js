@@ -7,11 +7,11 @@ const LogoShowcase = ({title,logo1, logo2, logo3, logo4, logo5}) => {
         <h2>{title}</h2>
       </div>
       <div className="logoShowcase__container">
-          <img src={logo1} height="200" width="100" alt="Brand Logo - " />
-          <img src={logo2} height="200" width="100" alt="Brand Logo - " />
-          <img src={logo3} height="200" width="100" alt="Brand Logo - " />
-          <img src={logo4} height="200" width="100" alt="Brand Logo - " />
-          <img src={logo5} height="200" width="100" alt="Brand Logo - " />
+          <img src={logo1} height="200" width="100" alt="Brand Logo 1" />
+          <img src={logo2} height="200" width="100" alt="Brand Logo 2" />
+          <img src={logo3} height="200" width="100" alt="Brand Logo 3" />
+          <img src={logo4} height="200" width="100" alt="Brand Logo 4" />
+          <img src={logo5} height="200" width="100" alt="Brand Logo 5" />
       </div>
     </div>
   )

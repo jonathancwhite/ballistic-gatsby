@@ -20,20 +20,13 @@ export const IndexPageTemplate = ({
   ctaLink2,
   ctaTitle,
   ctaTitle2,
-  brandLogo1,
-  brandLogo2,
-  brandLogo3, 
-  brandLogo4, 
-  brandLogo5,
+  brands,
   mainpitch,
-  description,
-  intro,
 }) => {
 
   return (
     <div>
-      {/* <FullWidthImage img={heroImage} title={title} subheading={subheading} /> */}
-      <Hero 
+      <Hero
         pageTitle={heading}
         pageSubText={subheading}
         showcaseImage={image}
@@ -44,14 +37,14 @@ export const IndexPageTemplate = ({
         ctaSecondaryLink={ctaLink2}
       />
       <InternalPage>
-        <LogoShowcase 
-          logo1={brandLogo1}
-          logo2={brandLogo2}
-          logo3={brandLogo3}
-          logo4={brandLogo4}
-          logo5={brandLogo5}
+        <LogoShowcase
+          logo1={brands.brandLogo1}
+          logo2={brands.brandLogo2}
+          logo3={brands.brandLogo3}
+          logo4={brands.brandLogo4}
+          logo5={brands.brandLogo5}
         />
-        <SimpleSection 
+        <SimpleSection
           heading={mainpitch.heading}
           subheading={mainpitch.subheading}
           copy1={mainpitch.col1}
@@ -61,13 +54,13 @@ export const IndexPageTemplate = ({
           ctaLink={mainpitch.ctaLink}
           titleWidth={mainpitch.imageOption}
         />
-        {/* <LogoShowcase
+        <LogoShowcase
           logo1={partners.partnerLogo1}
           logo2={partners.partnerLogo2}
           logo3={partners.partnerLogo3}
           logo4={partners.partnerLogo4}
           logo5={partners.partnerLogo5}
-        /> */}
+        />
 
       </InternalPage>
     </div>
@@ -129,11 +122,13 @@ export const pageQuery = graphql`
         subheading
         heroCTATitle
         heroCTALink
-        brandLogo1
-        brandLogo2
-        brandLogo3
-        brandLogo4
-        brandLogo5
+        brands {
+          brandLogo1
+          brandLogo2
+          brandLogo3
+          brandLogo4
+          brandLogo5
+        }
         mainpitch {
           heading
           subheading
