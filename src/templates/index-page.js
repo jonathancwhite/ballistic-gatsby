@@ -132,15 +132,6 @@ export const pageQuery = graphql`
           col2
           ctaTitle
           ctaLink
-          color
-          imageOption
-        }
-        partners {
-          partnerLogo1
-          partnerLogo2
-          partnerLogo3
-          partnerLogo4
-          partnerLogo5
         }
         about {
           blurbs {
