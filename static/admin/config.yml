@@ -46,25 +46,37 @@ collections:
               widget: "hidden",
               default: "index-page",
             }
-          - { label: Title, name: title, widget: string }
+          - { label: Page Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
           - { label: Image Alt Text, name: imageAlt, widget: string }
           - { label: Heading, name: heading, widget: string }
           - { label: Subheading, name: subheading, widget: string }
+          - { label: Hero CTA Title, name: heroCTATitle, widget: string }
+          - { label: Hero CTA Link, name: heroCTALink, widget: string }
+          - { label: Brand Logo 1, name: brandLogo1, widget: image }
+          - { label: Brand Logo 2, name: brandLogo2, widget: image }
+          - { label: Brand Logo 3, name: brandLogo3, widget: image }
+          - { label: Brand Logo 4, name: brandLogo4, widget: image }
+          - { label: Brand Logo 5, name: brandLogo5, widget: image }
           - {
               label: Mainpitch,
               name: mainpitch,
               widget: object,
               fields:
                 [
-                  { label: Title, name: title, widget: string },
-                  { label: Description, name: description, widget: text },
+                  { label: Heading, name: heading, widget: string },
+                  { label: Subheading, name: subheading, widget: string },
+                  { label: Column 1 Text, name: col1, widget: text },
+                  { label: Column 2 Text, name: col2, widget: text },
+                  { label: CTA Title, name: ctaTitle, widget: string },
+                  { label: CTA Link, name: ctaLink, widget: string },
+                  { label: Color, name: color, widget: select, options: ["lightblue"]}
+                  { label: Add Image?, name: imageOption, widget: select, options: ["no-image"]}
                 ],
             }
-          - { label: Description, name: description, widget: string }
           - {
-              label: Intro,
-              name: intro,
+              label: About Us Preview,
+              name: about,
               widget: object,
               fields:
                 [

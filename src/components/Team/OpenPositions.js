@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link } from 'gatsby';
 import { Jobs } from './jobs';
 import { FaLocationArrow } from 'react-icons/fa';
 

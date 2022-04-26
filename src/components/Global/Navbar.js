@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'gatsby'
 import Logo from '../../assets/img/ba-logo-cropped.png';
 import { AiFillCaretDown } from 'react-icons/ai';
 // import { useScrollHandler } from '../hooks/useScrollHandler';

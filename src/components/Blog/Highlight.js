@@ -1,7 +1,7 @@
 import React from 'react'
 import postlist from "../../posts.json";
 import Markdown from 'react-markdown';
-import { Link } from 'react-router-dom';
+import { Link } from 'gatsby';
 
 const Highlight = ({section}) => {
     const excerptList = postlist.map(post => {
