@@ -28,7 +28,6 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
-  const heroImage = getImage(image) || image;
 
   return (
     <div>
@@ -133,9 +132,17 @@ export const pageQuery = graphql`
           col2
           ctaTitle
           ctaLink
+          color
+          imageOption
         }
-        description
-        intro {
+        partners {
+          partnerLogo1
+          partnerLogo2
+          partnerLogo3
+          partnerLogo4
+          partnerLogo5
+        }
+        about {
           blurbs {
             image {
               childImageSharp {
