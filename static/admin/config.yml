@@ -70,8 +70,8 @@ collections:
                   { label: Column 2 Text, name: col2, widget: text },
                   { label: CTA Title, name: ctaTitle, widget: string },
                   { label: CTA Link, name: ctaLink, widget: string },
-                  { label: Color, name: color, widget: select, options: ["lightblue"]}
-                  { label: Add Image?, name: imageOption, widget: select, options: ["no-image"]}
+                  { label: Color, name: color, widget: select, options: ["lightblue"]},
+                  { label: Add Image, name: imageOption, widget: select, options: ["no-image"]}
                 ],
             }
           - {
