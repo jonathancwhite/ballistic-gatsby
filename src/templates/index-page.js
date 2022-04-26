@@ -37,13 +37,13 @@ export const IndexPageTemplate = ({
         ctaSecondaryLink={ctaLink2}
       />
       <InternalPage>
-        <LogoShowcase
+        {/* <LogoShowcase
           logo1={brands.brandLogo1}
           logo2={brands.brandLogo2}
           logo3={brands.brandLogo3}
           logo4={brands.brandLogo4}
           logo5={brands.brandLogo5}
-        />
+        /> */}
         <SimpleSection
           heading={mainpitch.heading}
           subheading={mainpitch.subheading}
@@ -54,13 +54,13 @@ export const IndexPageTemplate = ({
           ctaLink={mainpitch.ctaLink}
           titleWidth={mainpitch.imageOption}
         />
-        <LogoShowcase
+        {/* <LogoShowcase
           logo1={partners.partnerLogo1}
           logo2={partners.partnerLogo2}
           logo3={partners.partnerLogo3}
           logo4={partners.partnerLogo4}
           logo5={partners.partnerLogo5}
-        />
+        /> */}
 
       </InternalPage>
     </div>
@@ -117,7 +117,10 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            gatsbyImageData(
+              quality: 100, 
+              placeholder: BLURRED
+            )
           }
         }
         imageAlt
@@ -127,33 +130,6 @@ export const pageQuery = graphql`
         ctaLink
         ctaTitle2
         ctaLink2
-        brands {
-          brandLogo1 {
-            childImageSharp {
-              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-            }
-          }
-          brandLogo2 {
-            childImageSharp {
-              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-            }
-          }
-          brandLogo3 {
-            childImageSharp {
-              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-            }
-          }
-          brandLogo4 {
-            childImageSharp {
-              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-            }
-          }
-          brandLogo5 {
-            childImageSharp {
-              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-            }
-          }
-        }
         mainpitch {
           heading
           subheading

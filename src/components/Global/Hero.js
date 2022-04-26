@@ -1,6 +1,7 @@
 import React from 'react'
 import ButtonCTA from './ButtonCTA'
 import StandardCTA from './StandardCTA'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 
 const Hero = ({classAdded, pageTitle, pageSubText, ctaTextPrimary, ctaPrimaryLink, ctaTextSecondary, ctaSecondaryLink, showcaseImage, showcaseAlt}) => {
@@ -20,7 +21,7 @@ const Hero = ({classAdded, pageTitle, pageSubText, ctaTextPrimary, ctaPrimaryLin
           </div>
       </div>
         <div className="page__showcase">
-            <img src={showcaseImage} alt={showcaseAlt}/>
+        <GatsbyImage image={showcaseImage} alt={showcaseAlt} />
         </div>
     </div>
   )
