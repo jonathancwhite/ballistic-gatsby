@@ -8,8 +8,10 @@ subheading: The best of the best trust Ballistic with their ecommerce needs. We
   pride ourselves on creating the best solution for you, without all the
   bullsh*t that comes along with it. We are the gold standard for Optimized
   Ecommerce.
-heroCTATitle: "Let's talk "
-heroCTALink: /contact-us
+ctaTitle: Let's talk 
+ctaLink: /contact-us
+ctaTitle2: View our work 
+ctaLink2: /our-work
 brands:
   brandLogo1: /img/partner-logos_bigcomm.png
   brandLogo2: /img/partner-logos_bigcomm.png
@@ -46,27 +48,10 @@ partners:
   partnerLogo4: /img/partner-logos_bigcomm.png
   partnerLogo5: /img/partner-logos_bigcomm.png
 about:
-  blurbs: []
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 ---

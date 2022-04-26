@@ -72,11 +72,14 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
+  ctaTitle: PropTypes.string,
+  ctaTitle2: PropTypes.string,
+  ctaLink: PropTypes.string,
+  ctaLink2: PropTypes.string,
+  brands: PropTypes.object,
   mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+  partners: PropTypes.object,
+  about: PropTypes.object,
 };
 
 const IndexPage = ({ data }) => {
