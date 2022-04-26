@@ -16,8 +16,10 @@ export const IndexPageTemplate = ({
   title,
   heading,
   subheading,
-  heroCTATitle,
-  heroCTALink,
+  ctaLink,
+  ctaLink2,
+  ctaTitle,
+  ctaTitle2,
   brandLogo1,
   brandLogo2,
   brandLogo3, 
@@ -36,10 +38,10 @@ export const IndexPageTemplate = ({
         pageSubText={subheading}
         showcaseImage={image}
         showcaseAlt={imageAlt}
-        ctaPrimaryLink={"/contact-us"}
-        ctaTextPrimary={"Let's talk "}
-        ctaTextSecondary={'See our work '}
-        ctaSecondaryLink={'/our-work'}
+        ctaPrimaryLink={ctaLink}
+        ctaTextPrimary={ctaTitle}
+        ctaTextSecondary={ctaTitle2}
+        ctaSecondaryLink={ctaLink2}
       />
       <InternalPage>
         <LogoShowcase 
@@ -122,8 +124,16 @@ export const pageQuery = graphql`
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
         }
+        imageAlt
         heading
         subheading
+        heroCTATitle
+        heroCTALink
+        brandLogo1
+        brandLogo2
+        brandLogo3
+        brandLogo4
+        brandLogo5
         mainpitch {
           heading
           subheading
@@ -131,6 +141,10 @@ export const pageQuery = graphql`
           col2
           ctaTitle
           ctaLink
+          ctaTitle2
+          ctaLink2
+          color
+          imageOption
         }
         about {
           heading

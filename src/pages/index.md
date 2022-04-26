@@ -34,6 +34,8 @@ mainpitch:
     incididunt excepteur elit occaecat velit id consectetur exercitation tempor.
   ctaTitle: Request a quote
   ctaLink: /contact-us
+  ctaTitle2: View our work 
+  ctaLink2: /our-work
   color: lightblue
   imageOption: no-image
 partners:
