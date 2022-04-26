@@ -24,7 +24,9 @@ export default function Hero(props) {
           <h1 className="page__title">{pageTitle}</h1>
           <p className='page__subtext'>{pageSubText}</p>
           <div className="page__buttons">
-              <ButtonCTA ctaText={ctaTitle} ctaLink={ctaLink}/>
+              {
+                ctaLink ? <ButtonCTA ctaTitle={ctaTitle} ctaLink={ctaLink}/> : null
+              }
               {
                 ctaLink2 ? <StandardCTA ctaText={ctaTitle2} ctaLink={ctaLink2}/> : null
               }
@@ -53,4 +55,8 @@ export default function Hero(props) {
 Hero.propTypes = {
   img: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   showcaseAlt: PropTypes.string,
+  ctaLink: PropTypes.string,
+  ctaTitle: PropTypes.string,
+  ctaTitle2: PropTypes.string,
+  ctaLink2: PropTypes.string,
 }

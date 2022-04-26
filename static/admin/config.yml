@@ -104,8 +104,60 @@ collections:
               fields:
                 [
                   { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
+                  { label: Subheading, name: subheading, widget: string },
+                  { label: Section Width, name: sectionwidth, widget: select, options: ["col-50", "col-70", "col-80"]},
+                  { label: Short Copy, name: copy, widget: text },
+                  { label: Color, name: color, widget: select, options: ["gold", "lightblue"]},
+                  { label: CTA Title, name: cta, widget: string },
+                  { label: CTA Link, name: ctaLink, widget: string },
+                  { label: Column Title, name: columnTitle1, widget: string },
+                  { label: Column Text, name: columnText1, widget: string },
+                  { label: Column 2 Title, name: columnTitle2, widget: string },
+                  { label: Column 2 Text, name: columnText2, widget: string },
                 ],
+            }
+          - {
+              label: Services Promo,
+              name: services,
+              widget: object,
+              fields:
+                [
+                  { label: Heading, name: heading, widget: string },
+                  { label: Subheading, name: subheading, widget: string },
+                  { label: Email Marketing Text, name: emailText, widget: text },
+                  { label: SEO Text, name: seoText, widget: text },
+                  { label: Development Text, name: devText, widget: text },
+
+                ]
+            }
+          - {
+              label: Next Steps,
+              name: nextsteps,
+              widget: object,
+              fields:
+                [
+                  { label: Heading, name: heading, widget: string },
+                  { label: Subheading, name: subheading, widget: string },
+                  { label: Section Width, name: sectionwidth, widget: select, options: ["col-70"]},
+                  { label: Short Copy, name: copy, widget: text },
+                  { label: Color, name: color, widget: select, options: ["gold", "lightblue"]},
+                ]
+            }
+          - {
+              label: Numbers Highlight,
+              name: numbers,
+              widget: object,
+              fields:
+                [
+                  { label: Stat Showcase, name: num1, widget: string }
+                  { label: Stat Showcase Text, name: text1, widget: string }
+                  { label: Stat Showcase, name: num2, widget: string }
+                  { label: Stat Showcase Text, name: text2, widget: string }
+                  { label: Stat Showcase, name: num3, widget: string }
+                  { label: Stat Showcase Text, name: text3, widget: string }
+                  { label: Stat Showcase, name: num4, widget: string }
+                  { label: Stat Showcase Text, name: text4, widget: string }
+                ]
             }
       - file: "src/pages/about/index.md"
         label: "About"

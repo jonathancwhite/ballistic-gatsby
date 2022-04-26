@@ -48,7 +48,7 @@ const SimpleSection = ({
                     </div>
                 </>}
             </div>
-            { cta ? <ButtonCTA ctaText={cta} ctaLink={ctaLink} color={color} /> : null}
+            { cta ? <ButtonCTA ctaTitle={cta} ctaLink={ctaLink} color={color} /> : null}
 
             { secondaryCol1Title ? <>
                 <div className="simpleSection__copy--secondary">

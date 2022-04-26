@@ -17,7 +17,20 @@ export default function LogoShowcase(props) {
         <h2>{title}</h2>
       </div>
       <div className="logoShowcase__container">
-          <GatsbyImage image={logo1} height="200" width="100" alt="Brand Logo 1" />
+      {
+        logo1?.url ? (
+          <img 
+            src={logo1} 
+            alt="Brand Logo 1" 
+            formats={["auto", "webp", "avif"]}
+          />
+        ) : (
+          <GatsbyImage 
+            image={logo1} 
+            alt="Brand Logo 1" 
+          />
+        )
+      }
           <GatsbyImage image={logo2} height="200" width="100" alt="Brand Logo 2" />
           <GatsbyImage image={logo3} height="200" width="100" alt="Brand Logo 3" />
           <GatsbyImage image={logo4} height="200" width="100" alt="Brand Logo 4" />

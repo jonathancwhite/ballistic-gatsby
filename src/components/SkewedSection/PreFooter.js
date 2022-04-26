@@ -1,9 +1,12 @@
 import React from 'react'
 import Numbers from './Numbers'
 import SimpleSection from '../SimpleSection/SimpleSection'
-import BallisticLogoBG from '../../assets/img/Ballistic-circle-white-21.png'
+import BallisticLogoBG from '../../img/logos/Ballistic-circle-white-21.png'
 
-const PreFooter = () => {
+export default function PreFooter(props){
+  const {
+    
+  } = props;
   return (
     <div className='skewFix'>
         <div className="skewedSection__container--noFlex">
@@ -22,11 +25,9 @@ const PreFooter = () => {
             />
             <Numbers />
             <div className="skewedSection__baLogo">
-            <img src={BallisticLogoBG} alt="" />
+              <img src={BallisticLogoBG} alt="" />
             </div>
         </div>
     </div>
   )
 }
-
-export default PreFooter

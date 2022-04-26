@@ -1,5 +1,5 @@
 import React from 'react'
-import JasonFace from '../../assets/img/jason-face.webp'
+import JasonFace from '../../img/jason-face.webp'
 
 const ImageHighlight = () => {
   return (
