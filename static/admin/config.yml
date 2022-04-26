@@ -53,8 +53,8 @@ collections:
           - { label: Subheading, name: subheading, widget: string }
           - { label: Hero CTA Title, name: ctaTitle, widget: string }
           - { label: Hero CTA Link, name: ctaLink, widget: string }
-          - { label: Secondary CTA Title, name: ctaTitle2, widget: string },
-          - { label: Secondary CTA Link, name: ctaLink2, widget: string },
+          - { label: Secondary CTA Title, name: ctaTitle2, widget: string }
+          - { label: Secondary CTA Link, name: ctaLink2, widget: string }
           - {
             label: Brand Showcase,
             name: brands,
