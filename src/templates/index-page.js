@@ -24,6 +24,7 @@ export const IndexPageTemplate = ({
   brandLogo4, 
   brandLogo5,
   mainpitch,
+  partners,
   description,
   intro,
 }) => {
@@ -36,7 +37,7 @@ export const IndexPageTemplate = ({
         pageTitle={heading}
         pageSubText={subheading}
         showcaseImage={image}
-        // showcaseAlt={imageAlt}
+        showcaseAlt={imageAlt}
         ctaPrimaryLink={"/contact-us"}
         ctaTextPrimary={"Let's talk "}
         ctaTextSecondary={'See our work '}
@@ -60,6 +61,14 @@ export const IndexPageTemplate = ({
           ctaLink={mainpitch.ctaLink}
           titleWidth={mainpitch.imageOption}
         />
+        <LogoShowcase
+          logo1={partners.partnerLogo1}
+          logo2={partners.partnerLogo2}
+          logo3={partners.partnerLogo3}
+          logo4={partners.partnerLogo4}
+          logo5={partners.partnerLogo5}
+        />
+
       </InternalPage>
     </div>
   );

@@ -74,6 +74,19 @@ collections:
                   { label: Add Image, name: imageOption, widget: select, options: ["no-image"]}
                 ],
             }
+          - { 
+              label: Partner Showcase,
+              name: partners,
+              widget: object,
+              fields:
+              [
+                { label: Partner Logo 1, name: partnerLogo1, widget: image },
+                { label: Partner Logo 2, name: partnerLogo2, widget: image },
+                { label: Partner Logo 3, name: partnerLogo3, widget: image },
+                { label: Partner Logo 4, name: partnerLogo4, widget: image },
+                { label: Partner Logo 5, name: partnerLogo5, widget: image },
+              ]
+            }
           - {
               label: About Us Preview,
               name: about,
