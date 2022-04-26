@@ -14,6 +14,12 @@ mainpitch:
     Aliqua laboris et nostrud magna adipisicing eiusmod consequat incididunt sint. In eu minim consectetur exercitation do nulla aute excepteur dolore velit deserunt excepteur labore et. Eiusmod adipisicing et eu sint mollit incididunt excepteur elit occaecat velit id consectetur exercitation tempor.
   ctaTitle: Request a quote 
   ctaLink: /contact-us
+partners:
+  partnerLogo1: /img/partners/partner-logos_bigcomm.png
+  partnerLogo2: /img/partners/partner-logos_bigcomm.png
+  partnerLogo3: /img/partners/partner-logos_bigcomm.png
+  partnerLogo4: /img/partners/partner-logos_bigcomm.png
+  partnerLogo5: /img/partners/partner-logos_bigcomm.png
 about:
   blurbs:
     - image: /img/coffee.png
