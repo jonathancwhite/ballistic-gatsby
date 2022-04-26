@@ -1,19 +1,29 @@
 ---
 templateKey: index-page
+title: Ballistic Agency | Not just another opinion
+image: /img/pahq-showcase.png
+imageAlt: Power Athlete Showcase - Screenshot of site
 heading: Not just another opinion
 subheading: The best of the best trust Ballistic with their ecommerce needs. We
   pride ourselves on creating the best solution for you, without all the
   bullsh*t that comes along with it. We are the gold standard for Optimized
   Ecommerce.
-heroCTATitle: "Let's talk "
+ctaTitle: "Let's talk "
+ctaLink: /contact-us
+ctaTitle2: "View our work "
+ctaLink2: /our-work
+brands:
+  brandLogo1: /img/partner-logos_bigcomm.png
+  brandLogo2: /img/partner-logos_bigcomm.png
+  brandLogo3: /img/partner-logos_bigcomm.png
+  brandLogo4: /img/partner-logos_bigcomm.png
+  brandLogo5: /img/partner-logos_bigcomm.png
 mainpitch:
   heading: Creating the most efficient solutions for you and your clients.
   subheading: Optimized Ecommerce
   color: lightblue
   ctaTitle: Request a quote
-  ctaLink2: /our-work
   ctaLink: /contact-us
-  ctaTitle2: View our work
   imageOption: no-image
   col1: >
     Officia veniam aliquip pariatur cupidatat aliqua enim occaecat dolore.
@@ -29,20 +39,6 @@ mainpitch:
     sint. In eu minim consectetur exercitation do nulla aute excepteur dolore
     velit deserunt excepteur labore et. Eiusmod adipisicing et eu sint mollit
     incididunt excepteur elit occaecat velit id consectetur exercitation tempor.
-ctaTitle: Let's talk
-ctaLink2: /our-work
-ctaLink: /contact-us
-ctaTitle2: View our work
-title: Ballistic Agency | Not just another opinion
-image: /img/pahq-showcase.png
-imageAlt: Power Athlete Showcase - Screenshot of site
-heroCTALink: /contact-us
-brands:
-  brandLogo1: /img/partner-logos_bigcomm.png
-  brandLogo2: /img/partner-logos_bigcomm.png
-  brandLogo3: /img/partner-logos_bigcomm.png
-  brandLogo4: /img/partner-logos_bigcomm.png
-  brandLogo5: /img/partner-logos_bigcomm.png
 partners:
   partnerLogo1: /img/partner-logos_bigcomm.png
   partnerLogo2: /img/partner-logos_bigcomm.png

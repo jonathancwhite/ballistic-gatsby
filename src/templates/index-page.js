@@ -138,8 +138,6 @@ export const pageQuery = graphql`
           col2
           ctaTitle
           ctaLink
-          ctaTitle2
-          ctaLink2
           color
           imageOption
         }
