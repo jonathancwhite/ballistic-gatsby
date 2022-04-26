@@ -123,8 +123,10 @@ export const pageQuery = graphql`
         imageAlt
         heading
         subheading
-        heroCTATitle
-        heroCTALink
+        ctaTitle
+        ctaLink
+        ctaTitle2
+        ctaLink2
         brands {
           brandLogo1 {
             childImageSharp {
