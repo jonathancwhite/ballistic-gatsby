@@ -10,10 +10,10 @@ export default function Hero(props) {
     classAdded, 
     pageTitle, 
     pageSubText, 
-    ctaTextPrimary, 
-    ctaPrimaryLink, 
-    ctaTextSecondary, 
-    ctaSecondaryLink, 
+    ctaTitle, 
+    ctaLink, 
+    ctaTitle2, 
+    ctaLink2, 
     img, 
     showcaseAlt = "showcase stock image"
   } = props;
@@ -24,11 +24,9 @@ export default function Hero(props) {
           <h1 className="page__title">{pageTitle}</h1>
           <p className='page__subtext'>{pageSubText}</p>
           <div className="page__buttons">
+              <ButtonCTA ctaText={ctaTitle} ctaLink={ctaLink}/>
               {
-                ctaPrimaryLink ? <ButtonCTA ctaText={ctaTextPrimary} ctaLink={ctaPrimaryLink}/> : null
-              }
-              {
-                ctaSecondaryLink ? <StandardCTA ctaText={ctaTextSecondary} ctaLink={ctaSecondaryLink}/> : null
+                ctaLink2 ? <StandardCTA ctaText={ctaTitle2} ctaLink={ctaLink2}/> : null
               }
               
           </div>

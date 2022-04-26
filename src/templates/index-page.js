@@ -16,10 +16,10 @@ export const IndexPageTemplate = ({
   title,
   heading,
   subheading,
-  ctaLink,
-  ctaLink2,
   ctaTitle,
+  ctaLink,
   ctaTitle2,
+  ctaLink2,
   brands,
   mainpitch,
 }) => {
@@ -32,10 +32,10 @@ export const IndexPageTemplate = ({
         pageSubText={subheading}
         img={heroImage}
         showcaseAlt={imageAlt}
-        ctaPrimaryLink={ctaLink}
-        ctaTextPrimary={ctaTitle}
-        ctaTextSecondary={ctaTitle2}
-        ctaSecondaryLink={ctaLink2}
+        ctaLink={ctaLink}
+        ctaTitle={ctaTitle}
+        ctaTitle2={ctaTitle2}
+        ctaLink2={ctaLink2}
       />
       <InternalPage>
         {/* <LogoShowcase

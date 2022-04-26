@@ -1,12 +1,16 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const ButtonCTA = ({ctaText, ctaLink, color}) => {
+export default function ButtonCTA(props){
+  const {
+    ctaTitle, 
+    ctaLink, 
+    color
+  } = props;
+
   return (
     <Link className={`cta--primary bg--${color}`} to={ctaLink}>
-        {ctaText} &gt;
+        {ctaTitle} &gt;
     </Link>
   )
 }
-
-export default ButtonCTA

@@ -8,9 +8,9 @@ subheading: The best of the best trust Ballistic with their ecommerce needs. We
   pride ourselves on creating the best solution for you, without all the
   bullsh*t that comes along with it. We are the gold standard for Optimized
   Ecommerce.
-ctaTitle: "Let's talk "
+ctaTitle: Let's talk
 ctaLink: /contact-us
-ctaTitle2: "View our work "
+ctaTitle2: View our work
 ctaLink2: /our-work
 brands:
   brandLogo1: /img/partner-logos_bigcomm.png
