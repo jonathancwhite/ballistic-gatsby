@@ -23,13 +23,14 @@ export const IndexPageTemplate = ({
   brands,
   mainpitch,
 }) => {
+  const heroImage = getImage(image) || image;
 
   return (
     <div>
       <Hero
         pageTitle={heading}
         pageSubText={subheading}
-        showcaseImage={image}
+        img={heroImage}
         showcaseAlt={imageAlt}
         ctaPrimaryLink={ctaLink}
         ctaTextPrimary={ctaTitle}

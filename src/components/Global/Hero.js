@@ -2,9 +2,22 @@ import React from 'react'
 import ButtonCTA from './ButtonCTA'
 import StandardCTA from './StandardCTA'
 import { GatsbyImage } from 'gatsby-plugin-image'
+import PropTypes from "prop-types";
 
 
-const Hero = ({classAdded, pageTitle, pageSubText, ctaTextPrimary, ctaPrimaryLink, ctaTextSecondary, ctaSecondaryLink, showcaseImage, showcaseAlt}) => {
+export default function Hero(props) {
+  const {
+    classAdded, 
+    pageTitle, 
+    pageSubText, 
+    ctaTextPrimary, 
+    ctaPrimaryLink, 
+    ctaTextSecondary, 
+    ctaSecondaryLink, 
+    img, 
+    showcaseAlt = "showcase stock image"
+  } = props;
+
   return (
     <div className={`hero ${classAdded}`}>
       <div className="hero__copy">
@@ -21,10 +34,25 @@ const Hero = ({classAdded, pageTitle, pageSubText, ctaTextPrimary, ctaPrimaryLin
           </div>
       </div>
         <div className="page__showcase">
-        <GatsbyImage image={showcaseImage} alt={showcaseAlt} />
+        {
+          img?.url ? (
+            <img 
+              src={img}
+              alt={showcaseAlt}
+              formats={["auto", "webp", "avif"]}
+            />
+          ) : (
+            <GatsbyImage 
+              image={img} 
+              alt={showcaseAlt} />
+          )
+        }
         </div>
     </div>
   )
 }
 
-export default Hero
+Hero.propTypes = {
+  img: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  showcaseAlt: PropTypes.string,
+}
