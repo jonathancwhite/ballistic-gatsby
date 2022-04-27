@@ -149,13 +149,13 @@ collections:
               widget: object,
               fields:
                 [
-                  { label: Stat Showcase, name: num1, widget: string }
-                  { label: Stat Showcase Text, name: text1, widget: string }
-                  { label: Stat Showcase, name: num2, widget: string }
-                  { label: Stat Showcase Text, name: text2, widget: string }
-                  { label: Stat Showcase, name: num3, widget: string }
-                  { label: Stat Showcase Text, name: text3, widget: string }
-                  { label: Stat Showcase, name: num4, widget: string }
+                  { label: Stat Showcase, name: num1, widget: string },
+                  { label: Stat Showcase Text, name: text1, widget: string },
+                  { label: Stat Showcase, name: num2, widget: string },
+                  { label: Stat Showcase Text, name: text2, widget: string },
+                  { label: Stat Showcase, name: num3, widget: string },
+                  { label: Stat Showcase Text, name: text3, widget: string },
+                  { label: Stat Showcase, name: num4, widget: string },
                   { label: Stat Showcase Text, name: text4, widget: string }
                 ]
             }
