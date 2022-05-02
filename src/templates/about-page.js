@@ -22,8 +22,6 @@ export const AboutPageTemplate = ({
 }) => {
   const heroImage = getImage(hero.img);
 
-  let teamMember = team.member;
-
   return (
     <div>
       <Hero
