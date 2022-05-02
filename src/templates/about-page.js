@@ -8,9 +8,9 @@ import { getImage } from "gatsby-plugin-image";
 import { template } from "lodash";
 import SkewedSectionSec from "../components/SkewedSection/SkewedSectionSec";
 import SimpleSection from "../components/SimpleSection/SimpleSection";
-import CoreValues from "../components/SimpleSection/CoreValues";
 import OpenPositions from "../components/Team/OpenPositions";
 import Benefits from "../components/Team/Benefits";
+import CoreValues from "../components/CoreValues/CoreValues";
 
 // eslint-disable-next-line
 export const AboutPageTemplate = ({ 
@@ -39,9 +39,7 @@ export const AboutPageTemplate = ({
         </div>
       </div>
       <div className="container pd-top flex-4col teamMembers">
-        {teamMember.map((item) => (
-          <TeamPicture name={item.name} role={item.title} />
-        ))}
+        <TeamPicture data={team.member} />
       </div>
       <SkewedSectionSec>
         <SimpleSection
@@ -54,12 +52,7 @@ export const AboutPageTemplate = ({
         />
         <div className="coreValues">
           <div className="coreValuesContainer flex wrap">
-            {corevalues.corevalueList.map((item) => (
-              <div class="coreValue__item">
-                <h4>{item.cvTitle}</h4>
-                <p>{item.cvCopy}</p>
-              </div>
-            ))}
+            <CoreValues data={corevalues.corevalueList}/>
           </div>
         </div>
       </SkewedSectionSec>

@@ -1,17 +1,19 @@
 import React from 'react'
 
-const TeamPicture = ({name, role}) => {
+const TeamPicture = ({data}) => {
   return (
       <>
+      {data.map((item) => (
         <div className="personalHighlight">
             <div className="personalHighlight__image">
-                <img src={`/images/ba_headshot_${name}.png`} alt={`Team member: ${name}`} />
+                <img src={`/images/ba_headshot_${item.name}.png`} alt={`Team member: ${item.name}`} />
             </div>
             <div className="personalHighlight__copy">
-                <h4>{name}</h4>
-                <p>{role}</p>
+                <h4>{item.name}</h4>
+                <p>{item.role}</p>
             </div>
         </div>
+      ))}
       </>
   )
 }
