@@ -2,8 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { AboutPageTemplate } from '../../templates/about-page'
 
-const AboutPagePreview = ({ entry, widgetFor }) => (
+const AboutPagePreview = ({ entry, widgetFor, fieldsMetaData }) => (
   <AboutPageTemplate
+    hero={entry.getIn(['data', 'hero'])}
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
   />
