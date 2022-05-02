@@ -189,120 +189,24 @@ collections:
                 { label: "Copy", name: "copy", widget: "string" },
                 { 
                   label: "Team Member",
-                  name: "member1",
-                  widget: "object",
+                  name: "member",
+                  widget: "list",
                   fields: 
                     [
                       { label: "Name", name: "name", widget: "string" },
                       { label: "Title", name: "title", widget: "string" },
                       { label: "Image", name: "img", widget: "image" }
                     ]
-                },
-                { 
-                  label: "Team Member",
-                  name: "member2",
-                  widget: "object",
-                  fields: 
-                    [
-                      { label: "Name", name: "name", widget: "string" },
-                      { label: "Title", name: "title", widget: "string" },
-                      { label: "Image", name: "img", widget: "image" }
-                    ]
-                },
-                { 
-                  label: "Team Member",
-                  name: "member3",
-                  widget: "object",
-                  fields: 
-                    [
-                      { label: "Name", name: "name", widget: "string" },
-                      { label: "Title", name: "title", widget: "string" },
-                      { label: "Image", name: "img", widget: "image" }
-                    ]
-                },
-                { 
-                  label: "Team Member",
-                  name: "member4",
-                  widget: "object",
-                  fields: 
-                    [
-                      { label: "Name", name: "name", widget: "string" },
-                      { label: "Title", name: "title", widget: "string" },
-                      { label: "Image", name: "img", widget: "image" }
-                    ]
-                },
-                { 
-                  label: "Team Member",
-                  name: "member5",
-                  widget: "object",
-                  fields: 
-                    [
-                      { label: "Name", name: "name", widget: "string" },
-                      { label: "Title", name: "title", widget: "string" },
-                      { label: "Image", name: "img", widget: "image" }
-                    ]
-                },
-                { 
-                  label: "Team Member",
-                  name: "member6",
-                  widget: "object",
-                  fields: 
-                    [
-                      { label: "Name", name: "name", widget: "string" },
-                      { label: "Title", name: "title", widget: "string" },
-                      { label: "Image", name: "img", widget: "image" }
-                    ]
-                },
-                { 
-                  label: "Team Member",
-                  name: "member7",
-                  widget: "object",
-                  fields: 
-                    [
-                      { label: "Name", name: "name", widget: "string" },
-                      { label: "Title", name: "title", widget: "string" },
-                      { label: "Image", name: "img", widget: "image" }
-                    ]
-                },
-                { 
-                  label: "Team Member",
-                  name: "member8",
-                  widget: "object",
-                  fields: 
-                    [
-                      { label: "Name", name: "name", widget: "string" },
-                      { label: "Title", name: "title", widget: "string" },
-                      { label: "Image", name: "img", widget: "image" }
-                    ]
-                },
-                { 
-                  label: "Team Member",
-                  name: "member9",
-                  widget: "object",
-                  fields: 
-                    [
-                      { label: "Name", name: "name", widget: "string" },
-                      { label: "Title", name: "title", widget: "string" },
-                      { label: "Image", name: "img", widget: "image" }
-                    ]
-                },
+                }
               ]
             }
           - {
               label: "Core Values",
               name: "corevalues",
-              widget: "object",
+              widget: "list",
               fields: [
-                { label: "Core Value Title", name: "cv1", widget: "string", default: "Fun" },
-                { label: "Core Value Copy", name: "cvc1", widget: "text" },
-                { label: "Core Value Title", name: "cv2", widget: "string", default: "Focused Growth" },
-                { label: "Core Value Copy", name: "cvc2", widget: "text" },
-                { label: "Core Value Title", name: "cv3", widget: "string", default: "Radical Responsibility" },
-                { label: "Core Value Copy", name: "cvc3", widget: "text" },
-                { label: "Core Value Title", name: "cv4", widget: "string", default: "Candor & Clarity" },
-                { label: "Core Value Copy", name: "cvc4", widget: "text" },
-                { label: "Core Value Title", name: "cv5", widget: "string", default: "Systematic Excellence" },
-                { label: "Core Value Copy", name: "cvc5", widget: "text" }
+                { label: "Core Value Title", name: "cvTitle", widget: "string", default: "Fun" },
+                { label: "Core Value Copy", name: "cvCopy", widget: "text" },
               ]
             }
           - {
