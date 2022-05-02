@@ -22,6 +22,8 @@ export const AboutPageTemplate = ({
 }) => {
   const heroImage = getImage(hero.img);
 
+  let teamMember = team.member;
+
   return (
     <div>
       <Hero
@@ -37,7 +39,7 @@ export const AboutPageTemplate = ({
         </div>
       </div>
       <div className="container pd-top flex-4col teamMembers">
-        {team.member.map((item) => (
+        {teamMember.map((item) => (
           <TeamPicture name={item.name} role={item.title} />
         ))}
       </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import BenefitItem from './BenefitItem';
 
 const Benefits = ({benefits}) => {
+    let benefitList = benefits.blist;
   return (
     <div className="benefits">
         <div className="container">
@@ -12,7 +13,7 @@ const Benefits = ({benefits}) => {
                 </p>
             </div>
             <div className="benefits__list">
-                {benefits.blist.map((item) => (
+                {benefitList.map((item) => (
                     <BenefitItem title={item.benefit} icon={item.icon}/>
                 ))}
             </div>
