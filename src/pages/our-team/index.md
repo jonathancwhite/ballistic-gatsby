@@ -4,7 +4,7 @@ path: /our-team
 title: About our values
 hero:
     heading: The tema behind the greatness
-    subheading: Occaecat non Lorem duis cupidatat quis irure nostrud in sint. Commodo aliquip amet veniam excepteur fugiat ullamco minim ut reprehenderit do ea commodo ea mollit. Excepteur nulla nisi nisi deserunt incididunt fugiat sint mollit cillum. Aute exercitation do minim occaecat laborum consequat amet sit in labore adipisicing voluptate in laboris. Aute proident laborum eu nostrud sint incididunt aute. Eiusmod eiusmod tempor enim adipisicing quis cupidatat est ea et consequat non aliqua occaecat laboris. Nostrud culpa proident ad ullamco dolor.
+    copy: Occaecat non Lorem duis cupidatat quis irure nostrud in sint. Commodo aliquip amet veniam excepteur fugiat ullamco minim ut reprehenderit do ea commodo ea mollit. Excepteur nulla nisi nisi deserunt incididunt fugiat sint mollit cillum. Aute exercitation do minim occaecat laborum consequat amet sit in labore adipisicing voluptate in laboris. Aute proident laborum eu nostrud sint incididunt aute. Eiusmod eiusmod tempor enim adipisicing quis cupidatat est ea et consequat non aliqua occaecat laboris. Nostrud culpa proident ad ullamco dolor.
     img: /img/ba_team_picture.jpeg
     imgAlt: Ballistic Agency Team Members dressed up for Halloween in downtown Opelika
 team:
