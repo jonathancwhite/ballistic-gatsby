@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Hero from "../components/Global/Hero";
 import TeamPicture from '../components/Team/TeamPicture';
+import { getImage } from "gatsby-plugin-image";
 import { template } from "lodash";
 import SkewedSectionSec from "../components/SkewedSection/SkewedSectionSec";
 import SimpleSection from "../components/SimpleSection/SimpleSection";
