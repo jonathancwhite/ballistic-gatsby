@@ -249,3 +249,17 @@ collections:
                   }
                 ]
             }
+
+  - name: "landing pages"
+    label: "Landing Pages"
+    folder: "src/pages/landing"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "landing-page",
+        }
+      - { label: "Title", name: "title", widget: "string" }
