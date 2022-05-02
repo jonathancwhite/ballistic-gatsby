@@ -203,10 +203,20 @@ collections:
           - {
               label: "Core Values",
               name: "corevalues",
-              widget: "list",
+              widget: "object",
               fields: [
-                { label: "Core Value Title", name: "cvTitle", widget: "string", default: "Fun" },
-                { label: "Core Value Copy", name: "cvCopy", widget: "text" },
+                { label: "Heading" , name: "heading", widget: "string" },
+                { label: "Subheading", name: "subheading", widget: "string" },
+                { label: "Copy", name: "copy", widget: "string" },
+                {
+                  label: "Core Values Items",
+                  name: "corevalueList",
+                  widget: "list",
+                  fields: [
+                    { label: "Core Value Title", name: "cvTitle", widget: "string", default: "Fun" },
+                    { label: "Core Value Copy", name: "cvCopy", widget: "text" },
+                  ]
+                }
               ]
             }
           - {
