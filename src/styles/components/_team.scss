@@ -17,10 +17,14 @@
     padding-bottom: calc($section-padding / 2) !important;
 }
 
+.coreValuesContainer {
+    gap: 3rem;
+}
+
 .coreValue__item {
     margin-bottom: 3rem;
     margin-top: 8rem;
-    width: 400px;
+    width: calc(1200px / 4);
 }
 
 .position {
