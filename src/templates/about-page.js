@@ -39,15 +39,15 @@ export const AboutPageTemplate = ({
       <div className="container pd-top flex-4col teamMembers">
         <TeamPicture teamMembers={team.member} />
       </div>
-      <SkewedSectionSec>
+      <SkewedSectionSec section="team">
         <SimpleSection
-          classAdded={"darkbg"}
+          classAdded={"coreValues"}
           heading={corevalues.heading}
           subheading={corevalues.subheading}
           copy1={corevalues.copy}
           color={"gold"}
-          sectionWidth={"col-50 m-auto"}
         />
+        <div className="spacer"></div>
         <div className="coreValues">
           <div className="coreValuesContainer flex wrap">
             <CoreValues list={corevalues.corevalueList}/>
