@@ -1,11 +1,11 @@
 import React from 'react'
 
-const TeamPicture = ({data}) => {
+const TeamPicture = ({ teamMembers }) => {
   return (
       <>
-      {data.map((item) => (
+      {teamMembers.map((item) => (
         <div className="personalHighlight">
-            <div className="personalHighlight__image">
+            <div key={item.name} className="personalHighlight__image">
                 <img src={`/images/ba_headshot_${item.name}.png`} alt={`Team member: ${item.name}`} />
             </div>
             <div className="personalHighlight__copy">

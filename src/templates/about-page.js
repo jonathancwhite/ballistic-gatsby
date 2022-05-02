@@ -39,7 +39,7 @@ export const AboutPageTemplate = ({
         </div>
       </div>
       <div className="container pd-top flex-4col teamMembers">
-        <TeamPicture data={team.member} />
+        <TeamPicture teamMembers={team.member} />
       </div>
       <SkewedSectionSec>
         <SimpleSection
@@ -52,9 +52,9 @@ export const AboutPageTemplate = ({
         />
         <div className="coreValues">
           <div className="coreValuesContainer flex wrap">
-            <CoreValues data={corevalues.corevalueList}/>
+            <CoreValues list={corevalues.corevalueList}/>
           </div>
-        </div>
+        </div> 
       </SkewedSectionSec>
       <OpenPositions jobs={openings.position} />
       <Benefits benefits={benefits} />

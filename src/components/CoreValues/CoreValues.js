@@ -1,10 +1,10 @@
 import React from 'react'
 
-const CoreValues = ({data}) => {
+const CoreValues = ({ list }) => {
   return (
     <>
-        {data.map((item) => (
-            <div class="coreValue__item">
+        {list.map((item) => (
+            <div key={item.cvTitle} class="coreValue__item">
                 <h4>{item.cvTitle}</h4>
                 <p>{item.cvCopy}</p>
             </div>
