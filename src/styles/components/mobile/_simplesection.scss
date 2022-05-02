@@ -1,4 +1,8 @@
 @media screen and (max-width: 960px) {
+    .coreValues {
+        padding-bottom: 3rem;
+    }
+
     .simpleSection {
         &__container {
             max-width: calc(100vw - 4rem);
@@ -53,6 +57,13 @@
     }
 
     .coreValues {
+
+        .coreValue__item{ 
+            margin-top: 1rem;
+                p {
+                    width: 100%;
+                }
+        }
         .simpleSection {
             &__heading{
                 width: 100%;

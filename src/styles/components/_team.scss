@@ -8,6 +8,21 @@
     width: 65%;
 }
 
+.team > skewedSection__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.coreValues {
+    padding-bottom: calc($section-padding / 2) !important;
+}
+
+.coreValue__item {
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+    width: 400px;
+}
+
 .position {
     width: 100%;
     background: #fff;

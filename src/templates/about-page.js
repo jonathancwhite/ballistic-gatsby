@@ -47,7 +47,6 @@ export const AboutPageTemplate = ({
           copy1={corevalues.copy}
           color={"gold"}
         />
-        <div className="spacer"></div>
         <div className="coreValues">
           <div className="coreValuesContainer flex wrap">
             <CoreValues list={corevalues.corevalueList}/>
