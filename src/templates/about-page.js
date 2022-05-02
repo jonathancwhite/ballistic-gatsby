@@ -108,7 +108,14 @@ export const aboutPageQuery = graphql`
         hero {
           heading
           copy
-          img
+          img {
+            childImageSharp {
+              gatsbyImageData(
+                quality: 100, 
+                placeholder: BLURRED
+              )
+            }
+          }
           imgAlt
         }
         team {
@@ -140,7 +147,14 @@ export const aboutPageQuery = graphql`
           heading
           copy
           blist {
-            icon
+            icon { 
+              childImageSharp {
+                gatsbyImageData(
+                  quality: 100, 
+                  placeholder: BLURRED
+                )
+              }
+            }
             benefit
           }
         }
