@@ -9,10 +9,21 @@ const IndexPagePreview = ({ entry, getAsset }) => {
     return (
       <IndexPageTemplate
         image={getAsset(data.image)}
+        imageAlt={data.imageAlt}
         title={data.title}
         heading={data.heading}
         subheading={data.subheading}
+        ctaTitle={data.ctaTitle}
+        ctaLink={data.ctaLink}
+        ctaTitle2={data.ctaTitle2}
+        ctaLink2={data.ctaLink2}
+        brands={data.brands || {}} 
         mainpitch={data.mainpitch || {}}
+        partners={data.partners || {}}
+        about={data.about || {}}
+        services={data.services || {}}
+        nextsteps={data.nextsteps || {}}
+        numbers={data.numbers || {}}
       />
     )
   } else {
