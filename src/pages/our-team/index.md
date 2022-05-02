@@ -52,15 +52,15 @@ openings:
         - title: Graphic Designer
           copy: Culpa velit ex amet velit mollit dolore ad culpa. Lorem dolore duis nostrud adipisicing adipisicing cupidatat sunt aliquip Lorem Lorem cupidatat anim nisi velit. Amet laborum pariatur voluptate id elit minim minim mollit veniam do.
           location: Remote
-          link: /graphic-designer
+          link: graphic-designer
         - title: Web Developer
           copy: Culpa velit ex amet velit mollit dolore ad culpa. Lorem dolore duis nostrud adipisicing adipisicing cupidatat sunt aliquip Lorem Lorem cupidatat anim nisi velit. Amet laborum pariatur voluptate id elit minim minim mollit veniam do.
           location: Remote
-          link: /web-developer
+          link: web-developer
         - title: SEO Specialist
           copy: Culpa velit ex amet velit mollit dolore ad culpa. Lorem dolore duis nostrud adipisicing adipisicing cupidatat sunt aliquip Lorem Lorem cupidatat anim nisi velit. Amet laborum pariatur voluptate id elit minim minim mollit veniam do.
           location: Remote
-          link: /seo-specialist
+          link: seo-specialist
 benefits: 
     heading: Working at Ballistic
     copy: Ea eiusmod minim est nostrud ex aute minim. Lorem veniam fugiat aliqua consequat irure exercitation ut fugiat do quis cupidatat enim duis. Commodo minim exercitation Lorem nisi exercitation. Cillum aliqua aliquip sint adipisicing ullamco quis esse eiusmod labore ut commodo magna. Eiusmod anim cillum laboris ipsum ex non adipisicing id exercitation aliquip. Aliquip deserunt velit esse mollit qui culpa irure. Sint aliquip sunt duis occaecat fugiat mollit consectetur nulla proident. Nulla dolore mollit reprehenderit aute pariatur incididunt aliqua in ut Lorem do. In nulla ut et nostrud eiusmod culpa fugiat do fugiat velit duis incididunt irure.
