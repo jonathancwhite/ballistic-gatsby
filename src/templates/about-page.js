@@ -67,34 +67,83 @@ export const AboutPageTemplate = ({
 };
 
 AboutPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
+  hero: PropTypes.object,
+  team: PropTypes.object,
+  corevalues: PropTypes.object,
+  openings: PropTypes.object,
+  benefits: PropTypes.object
 };
 
 const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
       <AboutPageTemplate
+        hero={frontmatter.hero}
+        team={frontmatter.team}
+        corevalues={frontmatter.corevalues}
+        openings={frontmatter.openings}
+        benefits={frontmatter.benefits}
       />
     </Layout>
   );
 };
 
 AboutPage.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default AboutPage;
 
 export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
+  query AboutPage {
+    markdownRemark(frontmatter: {templateKey: { eq: "about-page" } }) {
       frontmatter {
         title
+        hero {
+          heading
+          copy
+          img
+          imgAlt
+        }
+        team {
+          heading
+          copy
+          member {
+            name
+            title
+          }
+        }
+        corevalues {
+          heading
+          subheading
+          copy
+          corevalueList {
+            cvTitle
+            cvCopy
+          }
+        }
+        openings {
+          position {
+            title
+            copy
+            location
+            link
+          }
+        }
+        benefits {
+          heading
+          copy
+          blist {
+            icon
+            benefit
+          }
+        }
       }
     }
   }
