@@ -104,6 +104,12 @@ export const pageQuery = graphql`
   query ServicesPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "Services-page" } }) {
       frontmatter {
+        seo {
+            title,
+            canonical,
+            meta,
+            ogimg
+        }
       }
     }
   }
