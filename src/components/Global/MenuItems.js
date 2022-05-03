@@ -11,12 +11,12 @@ export const MenuItems = [
     },
     {
         title: 'Web Design & Development',
-        path: '/web-design',
+        path: '/web-development',
         cName: 'dropdown-link'
     },
     {
         title: 'Ecommerce Strategy Plan',
-        path: '/strategy',
+        path: '/ecommerce-strategy-plan',
         cName: 'dropdown-link'
     },
 ]
