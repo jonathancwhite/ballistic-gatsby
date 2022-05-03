@@ -10,6 +10,7 @@ import LogoShowcaseList from '../components/Global/LogoShowcaseList';
 import CenteredBriefText from '../components/Global/CenteredBriefText';
 import SimpleSection from '../components/SimpleSection/SimpleSection';
 import SkewedSection from '../components/SkewedSection/SkewedSectionSec';
+import { Helmet } from "react-helmet";
 
 // eslint-disable-next-line
 export const ServicesPageTemplate = ({
@@ -20,9 +21,9 @@ export const ServicesPageTemplate = ({
     secondary,
     finalpitch
 }) => {
-  const heroImage = getImage(hero.img);
-  const secondaryImage = getImage(secondary.img);
-  const ogImage = getImage(seo.img);
+//   const heroImage = getImage(hero.img);
+//   const secondaryImage = getImage(secondary.img);
+//   const ogImage = getImage(seo.img);
 
   return (
     <div>
@@ -30,10 +31,10 @@ export const ServicesPageTemplate = ({
             <title>{seo.title}</title>
             <meta name="description" content={seo.meta} />
             <link rel="canonical" href={seo.canonical} />
-            <meta property="og:image" content={ogImage} />
+            <meta property="og:image" content={seo.img} />
             <meta property="og:url" content={seo.canonical} />
         </Helmet>
-      <Hero
+      {/* <Hero
         pageTitle={hero.heading}
         ctaTitle={hero.ctaText}
         ctaLink={hero.ctaLink}
@@ -59,7 +60,7 @@ export const ServicesPageTemplate = ({
             <h4 className="section-title">{finalpitch.heading}</h4>
             <p>{finalpitch.copy}</p>
         </div>
-      </InternalPage>
+      </InternalPage> */}
     </div>
   );
 };
