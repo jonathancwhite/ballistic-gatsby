@@ -44,7 +44,6 @@ export const ServicesPageTemplate = ({
       <InternalPage>
         <LogoShowcaseList
           logoshowcaseList={brands.blist}
-          title={brands.title}
         />
         <CenteredBriefText heading={mainpitch.heading} copy={mainpitch.copy}/>
         <SkewedSection horizontalImg={secondaryImage} imgAlt={secondary.imgAlt}>
@@ -144,7 +143,6 @@ export const pageQuery = graphql`
             }
             imgAlt
           }
-          title
         }
         mainpitch {
           heading
