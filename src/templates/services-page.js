@@ -21,20 +21,20 @@ export const ServicesPageTemplate = ({
     secondary,
     finalpitch
 }) => {
-//   const heroImage = getImage(hero.img);
-//   const secondaryImage = getImage(secondary.img);
-//   const ogImage = getImage(seo.img);
+  const heroImage = getImage(hero.img);
+  const secondaryImage = getImage(secondary.img);
+  const ogImage = getImage(seo.img);
 
   return (
     <div>
-        <Helmet>
-            <title>{seo.title}</title>
-            <meta name="description" content={seo.meta} />
-            <link rel="canonical" href={seo.canonical} />
-            <meta property="og:image" content={seo.img} />
-            <meta property="og:url" content={seo.canonical} />
-        </Helmet>
-      {/* <Hero
+      <Helmet>
+          <title>{seo.title}</title>
+          <meta name="description" content={seo.meta} />
+          <link rel="canonical" href={seo.canonical} />
+          <meta property="og:image" content={seo.img} />
+          <meta property="og:url" content={seo.canonical} />
+      </Helmet>
+      <Hero
         pageTitle={hero.heading}
         ctaTitle={hero.ctaText}
         ctaLink={hero.ctaLink}
@@ -60,7 +60,7 @@ export const ServicesPageTemplate = ({
             <h4 className="section-title">{finalpitch.heading}</h4>
             <p>{finalpitch.copy}</p>
         </div>
-      </InternalPage> */}
+      </InternalPage>
     </div>
   );
 };
@@ -117,6 +117,56 @@ export const pageQuery = graphql`
                     )
                 }
             }
+        }
+        hero {
+          heading
+          ctaText
+          ctaLink
+          img {
+            childImageSharp {
+              gatsbyImageData(
+                quality: 100, 
+                placeholder: BLURRED
+              )
+            }
+          }
+          imgAlt
+        }
+        brands {
+          blist {
+            img {
+              childImageSharp {
+                gatsbyImageData(
+                  quality: 100, 
+                  placeholder: BLURRED
+                )
+              }
+            }
+            imgAlt
+          }
+          title
+        }
+        mainpitch {
+          heading
+          copy
+        }
+        secondary {
+          img {
+            childImageSharp {
+              gatsbyImageData(
+                quality: 100, 
+                placeholder: BLURRED
+              )
+            }
+          }
+          imgAlt
+          heading
+          subheading
+          copy
+        }
+        finalpitch {
+          heading
+          copy
         }
       }
     }
