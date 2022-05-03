@@ -102,7 +102,7 @@ export default EmailPage;
 
 export const pageQuery = graphql`
   query EmailPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "Email-page" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "email-page" } }) {
       frontmatter {
         seohelmet {
             title,

@@ -102,7 +102,7 @@ export default SeoPage;
 
 export const pageQuery = graphql`
   query SeoPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "Seo-page" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "seo-page" } }) {
       frontmatter {
         seohelmet {
             title,

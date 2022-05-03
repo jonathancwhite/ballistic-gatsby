@@ -102,7 +102,7 @@ export default StrategyPage;
 
 export const pageQuery = graphql`
   query StrategyPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "Strategy-page" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "strategy-page" } }) {
       frontmatter {
         seohelmet {
             title,
