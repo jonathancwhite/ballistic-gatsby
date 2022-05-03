@@ -436,8 +436,6 @@ collections:
                 { label: "Copy", name: "copy", widget: "text" },
               ]
             }
-  
-  - name: "landing pages"
       - file: "src/pages/web-development/index.md"    
         label: "Web Development"
         name: "webdev"
@@ -516,6 +514,7 @@ collections:
                 { label: "Copy", name: "copy", widget: "text" },
               ]
             }
+  - name: "landing pages"
     label: "Landing Pages"
     folder: "src/pages/landing"
     create: true
