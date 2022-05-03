@@ -16,7 +16,7 @@ const OpenPositions = ({jobs}) => {
                         <h4>{item.title}</h4>
                         <p className='position__desc'>{item.copy}</p>
                         <p className='position__location'><FaLocationArrow /> {item.location}</p>
-                        <Link className="position__link" to={`/jobs/${item.link}`}>Apply Now &gte;</Link>
+                        <Link className="position__link" to={`/jobs/${item.link}`}>Apply Now &gt;</Link>
                     </div>
                 ))
             }
