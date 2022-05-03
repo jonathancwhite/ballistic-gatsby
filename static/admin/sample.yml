@@ -1,0 +1,101 @@
+- file: "src/pages/our-team/index.md"
+        label: "Our Team"
+        name: "about"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "about-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { 
+              label: "Hero", 
+              name: "hero", 
+              widget: "object",
+              fields: [
+                { label: "Heading", name: "heading", widget: "string" },
+                { label: "Copy", name: "copy", widget: "string" },
+                { label: "Image", name: "img", widget: "image"},
+                { label: "Image Alt Text", name: "imgAlt", widget: "string"}
+              ] 
+            }
+          - {
+              label: "Team",
+              name: "team",
+              widget: "object",
+              fields: [
+                { label: "Heading", name: "heading", widget: "string" },
+                { label: "Copy", name: "copy", widget: "string" },
+                { 
+                  label: "Team Member",
+                  name: "member",
+                  widget: "list",
+                  fields: 
+                    [
+                      { label: "Name", name: "name", widget: "string" },
+                      { label: "Title", name: "title", widget: "string" }
+                    ]
+                }
+              ]
+            }
+          - {
+              label: "Core Values",
+              name: "corevalues",
+              widget: "object",
+              fields: [
+                { label: "Heading" , name: "heading", widget: "string" },
+                { label: "Subheading", name: "subheading", widget: "string" },
+                { label: "Copy", name: "copy", widget: "string" },
+                {
+                  label: "Core Values Items",
+                  name: "corevalueList",
+                  widget: "list",
+                  fields: [
+                    { label: "Core Value Title", name: "cvTitle", widget: "string", default: "Fun" },
+                    { label: "Core Value Copy", name: "cvCopy", widget: "text" },
+                  ]
+                }
+              ]
+            }
+          - {
+              label: "Job Openings",
+              name: "openings",
+              widget: "object",
+              fields: 
+                [
+                  { 
+                    label: "Position",
+                    name: "position",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Title", name: "title", widget: "string" },
+                        { label: "Copy", name: "copy", widget: "string" },
+                        { label: "Location", name: "location", widget: "string" },
+                        { label: "Posting Link", name: "link", widget: "string" }
+                      ]
+                  }
+                ]
+            }
+          - { 
+              label: "Benefits",
+              name: "benefits",
+              widget: "object",
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: "string" },
+                  { label: "Copy", name: "copy", widget: "string" },
+                  { 
+                    label: "Benefits List", 
+                    name: "blist", 
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Icon", name: "icon", widget: "image" },
+                        { label: "Benefit", name: "benefit", widget: "string" }
+                      ]
+                  }
+                ]
+            }
+      

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ImageHighlightHoriz = () => {
+const ImageHighlightHoriz = ({image, imgAlt}) => {
   return (
     <div className="horizontalImg">
-        <img src={'/images/WhyChooseBallisticAgency-HD.jpg'} alt="" />
+        <img src={image} alt={imgAlt} />
     </div>
   )
 }

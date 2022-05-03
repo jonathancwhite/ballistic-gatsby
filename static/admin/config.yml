@@ -259,6 +259,164 @@ collections:
                   }
                 ]
             }
+      - file: "src/pages/seo/index.md"
+        label: "Search Engine Optimization"
+        name: "seo"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "services-page"
+            }
+          - {
+              label: "SEO",
+              name: "SEO",
+              widget: "object"
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Canonical URL", name: "canonical", widget: "string" },
+                { label: "Meta Description", name: "meta", widget: "text" },
+                { label: "Open Graph Image", name: "ogimg", widget: "image" }
+              ]
+            }
+          - { 
+              label: "Hero", 
+              name: "hero", 
+              widget: "object",
+              fields: [
+                { label: "Heading", name: "heading", widget: "string" },
+                { label: "CTA Text", name: "ctaText", widget: "string" },
+                { label: "CTA Link", name: "ctaLink", widget: "string" },
+                { label: "Image", name: "img", widget: "image"},
+                { label: "Image Alt Text", name: "imgAlt", widget: "string"}
+              ] 
+            }
+          - {
+              label: "Mainpitch",
+              name: "mainpitch",
+              widget: "object",
+              fields: [
+                { label: "Heading", name: "heading", widget: "string" },
+                { label: "Copy", name: "copy", widget: "text" }
+              ]
+            }
+          - {
+              label: "Brands Showcase",
+              name: "brands",
+              widget: "object",
+              fields: [
+                { label: "Brands Title", name: "title", widget: "string", required: "false"}
+                { 
+                  label: "Brands List",
+                  name: "blist",
+                  widget: "list",
+                  fields: [
+                    { label: "Brand Logo", name: "img", widget: "image" },
+                    { label: "Brand Alt Text", name: "imgAlt", widget: "string" }
+                  ]
+                }
+              ]
+            }
+          - {
+              label: "Secondary Pitch",
+              name: "secondary",
+              widget: "object",
+              fields: [
+                { label: "Heading", name: "heading", widget: "string" },
+                { label: "Subheading", name: "subheading", widget: "string" },
+                { label: "Copy", name: "copy", widget: "text" },
+                { label: "Image", name: img, widget: "image" },
+                { label: "Image Alt", name: "imgAlt", widget: "string" }
+              ]
+            }
+          - {
+              label: "Final Pitch",
+              name: "finalpitch",
+              widget: "object",
+              fields: [
+                { label: "Heading", name: "heading", widget: "string" },
+                { label: "Copy", name: "copy", widget: "text" },
+              ]
+            }
+      - file: "src/pages/email-marketing/index.md"
+        label: "Search Engine Optimization"
+        name: "seo"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "services-page"
+            }
+          - {
+              label: "SEO",
+              name: "SEO",
+              widget: "object"
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Canonical URL", name: "canonical", widget: "string" },
+                { label: "Meta Description", name: "meta", widget: "text" },
+                { label: "Open Graph Image", name: "ogimg", widget: "image" }
+              ]
+            }
+          - { 
+              label: "Hero", 
+              name: "hero", 
+              widget: "object",
+              fields: [
+                { label: "Heading", name: "heading", widget: "string" },
+                { label: "CTA Text", name: "ctaText", widget: "string" },
+                { label: "CTA Link", name: "ctaLink", widget: "string" },
+                { label: "Image", name: "img", widget: "image"},
+                { label: "Image Alt Text", name: "imgAlt", widget: "string"}
+              ] 
+            }
+          - {
+              label: "Mainpitch",
+              name: "mainpitch",
+              widget: "object",
+              fields: [
+                { label: "Heading", name: "heading", widget: "string" },
+                { label: "Copy", name: "copy", widget: "text" }
+              ]
+            }
+          - {
+              label: "Brands Showcase",
+              name: "brands",
+              widget: "object",
+              fields: [
+                { 
+                  label: "Brands List",
+                  name: "blist",
+                  widget: "list",
+                  fields: [
+                    { label: "Brand Logo", name: "img", widget: "image" }
+                  ]
+                }
+              ]
+            }
+          - {
+              label: "Secondary Pitch",
+              name: "secondary",
+              widget: "object",
+              fields: [
+                { label: "Heading", name: "heading", widget: "string" },
+                { label: "Subheading", name: "subheading", widget: "string" },
+                { label: "Copy", name: "copy", widget: "text" },
+                { label: "Image", name: img, widget: "image" }
+              ]
+            }
+          - {
+              label: "Final Pitch",
+              name: "finalpitch",
+              widget: "object",
+              fields: [
+                { label: "Heading", name: "heading", widget: "string" },
+                { label: "Subheading", name: "subheading", widget: "string" },
+                { label: "Copy", name: "copy", widget: "text" },
+              ]
+            }
 
   - name: "landing pages"
     label: "Landing Pages"
