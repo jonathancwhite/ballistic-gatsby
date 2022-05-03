@@ -1,5 +1,5 @@
-import { GatsbyImage } from 'gatsby-plugin-image'
 import React from 'react'
+import { GatsbyImage, getSrc } from 'gatsby-plugin-image'
 
 const LogoShowcaseList = ({title, logoshowcaseList}) => {
   return (
@@ -10,10 +10,7 @@ const LogoShowcaseList = ({title, logoshowcaseList}) => {
         <div className="logoShowcase__container">
             {
                 logoshowcaseList.map((item) => (
-                    <GatsbyImage
-                        image={item.img}
-                        alt={item.imgAlt}
-                    />
+                    <img src={getSrc(item.img)} alt={item.imgAlt} />
                 ))
             }
         </div>

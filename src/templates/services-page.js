@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
+import { getImage, getSrc } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
 import Hero from '../components/Global/Hero';
@@ -14,7 +14,7 @@ import { Helmet } from "react-helmet";
 
 // eslint-disable-next-line
 export const ServicesPageTemplate = ({
-    seo,
+    seohelmet,
     hero,
     mainpitch,
     brands,
@@ -22,23 +22,23 @@ export const ServicesPageTemplate = ({
     finalpitch
 }) => {
   const heroImage = getImage(hero.img);
-  const secondaryImage = getImage(secondary.img);
-  const ogImage = getImage(seo.img);
+  const secondaryImage = getSrc(secondary.img);
+  const ogImage = getSrc(seohelmet.ogimg);
 
   return (
     <div>
       <Helmet>
-          <title>{seo.title}</title>
-          <meta name="description" content={seo.meta} />
-          <link rel="canonical" href={seo.canonical} />
-          <meta property="og:image" content={seo.img} />
-          <meta property="og:url" content={seo.canonical} />
+          <title>{seohelmet.title}</title>
+          <meta name="description" content={seohelmet.meta} />
+          <link rel="canonical" href={seohelmet.canonical} />
+          <meta property="og:image" content={ogImage} />
+          <meta property="og:url" content={seohelmet.canonical} />
       </Helmet>
       <Hero
         pageTitle={hero.heading}
         ctaTitle={hero.ctaText}
         ctaLink={hero.ctaLink}
-        img={hero.img}
+        img={heroImage}
         showcaseAlt={hero.imgAlt}
       />
       <InternalPage>
@@ -46,7 +46,7 @@ export const ServicesPageTemplate = ({
           logoshowcaseList={brands.blist}
         />
         <CenteredBriefText heading={mainpitch.heading} copy={mainpitch.copy}/>
-        <SkewedSection horizontalImg={secondary.img} imgAlt={secondary.imgAlt}>
+        <SkewedSection horizontalImg={secondaryImage} imgAlt={secondary.imgAlt}>
           <SimpleSection
             classAdded={"darkbg"}
             heading={secondary.heading}
@@ -65,7 +65,7 @@ export const ServicesPageTemplate = ({
 };
 
 ServicesPageTemplate.propTypes = {
-  seo: PropTypes.object,
+  seohelmet: PropTypes.object,
   hero: PropTypes.object,
   mainpitch: PropTypes.object,
   brands: PropTypes.object,
@@ -79,7 +79,7 @@ const ServicesPage = ({ data }) => {
   return (
     <Layout>
       <ServicesPageTemplate
-        seo={frontmatter.seo}
+        seohelmet={frontmatter.seohelmet}
         hero={frontmatter.hero}
         mainpitch={frontmatter.mainpitch}
         brands={frontmatter.brands}
@@ -104,17 +104,16 @@ export const pageQuery = graphql`
   query ServicesPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "services-page" } }) {
       frontmatter {
-        seo {
+        seohelmet {
             title,
             canonical,
             meta,
             ogimg {
-                childImageSharp {
-                    gatsbyImageData(
-                        quality: 100, 
-                        placeholder: BLURRED
-                    )
-                }
+              childImageSharp {
+                gatsbyImageData(
+                    quality: 100
+                )
+              }
             }
         }
         hero {

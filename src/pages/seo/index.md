@@ -1,16 +1,10 @@
 ---
 templateKey: services-page
-seo:
+seohelmet:
   title: Ballistic Agency | Search Engine Optimization
   canonical: https://www.migratetobigcommerce.com/seo
   meta: This is a sample meta description that should be replaced by the author of
     the page
-  ogimg: /img/seo-showcase.png
-SEO:
-  title: Ballistic Agency | Search Engine Optimization
-  canonical: https://www.migratetobigcommerce.com/seo
-  meta: This is a sample meta description that should be updated by the new page
-    author.
   ogimg: /img/seo-showcase.png
 hero:
   heading: Your Goals. Your Traffic. Our Problem.
