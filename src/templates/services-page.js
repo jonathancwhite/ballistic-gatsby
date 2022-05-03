@@ -31,6 +31,7 @@ export const ServicesPageTemplate = ({
             <meta name="description" content={seo.meta} />
             <link rel="canonical" href={seo.canonical} />
             <meta property="og:image" content={ogImage} />
+            <meta property="og:url" content={seo.canonical} />
         </Helmet>
       <Hero
         pageTitle={hero.heading}
