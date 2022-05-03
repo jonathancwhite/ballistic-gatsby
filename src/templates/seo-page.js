@@ -13,7 +13,7 @@ import SkewedSection from '../components/SkewedSection/SkewedSectionSec';
 import { Helmet } from "react-helmet";
 
 // eslint-disable-next-line
-export const ServicesPageTemplate = ({
+export const SeoPageTemplate = ({
     seohelmet,
     hero,
     mainpitch,
@@ -64,7 +64,7 @@ export const ServicesPageTemplate = ({
   );
 };
 
-ServicesPageTemplate.propTypes = {
+SeoPageTemplate.propTypes = {
   seohelmet: PropTypes.object,
   hero: PropTypes.object,
   mainpitch: PropTypes.object,
@@ -73,12 +73,12 @@ ServicesPageTemplate.propTypes = {
   finalpitch: PropTypes.object,
 };
 
-const ServicesPage = ({ data }) => {
+const SeoPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
-      <ServicesPageTemplate
+      <SeoPageTemplate
         seohelmet={frontmatter.seohelmet}
         hero={frontmatter.hero}
         mainpitch={frontmatter.mainpitch}
@@ -90,7 +90,7 @@ const ServicesPage = ({ data }) => {
   );
 };
 
-ServicesPage.propTypes = {
+SeoPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -98,11 +98,11 @@ ServicesPage.propTypes = {
   }),
 };
 
-export default ServicesPage;
+export default SeoPage;
 
 export const pageQuery = graphql`
-  query ServicesPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "services-page" } }) {
+  query SeoPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "Seo-page" } }) {
       frontmatter {
         seohelmet {
             title,
