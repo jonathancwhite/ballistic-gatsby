@@ -340,8 +340,8 @@ collections:
               ]
             }
       - file: "src/pages/email-marketing/index.md"
-        label: "Search Engine Optimization"
-        name: "seo"
+        label: "Email Marketing"
+        name: "email"
         fields:
           - {
               label: "Template Key",
