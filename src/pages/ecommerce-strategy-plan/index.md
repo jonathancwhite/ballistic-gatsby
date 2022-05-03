@@ -1,15 +1,15 @@
 ---
 templateKey: strategy-page
 seohelmet:
-  title: Ballistic Agency | Email Marketing
-  canonical: https://www.migratetobigcommerce.com/email-marketing
+  title: Ballistic Agency | Ecommerce Strategy Plan
+  canonical: https://www.migratetobigcommerce.com/ecommerce-strategy-plan
   meta: This is a sample meta description that should be changed by the author of
     the page
   ogimg: /img/products-full-width.jpg
 hero:
-  heading: Email Marketing Heading
-  ctaText: Calculate your potential ROI
-  ctaLink: /email-roi
+  heading: Strategy Headline
+  ctaText: Let us fix you
+  ctaLink: /contact-us
   img: /img/products-grid3.jpg
   imgAlt: random image
 mainpitch:
@@ -26,7 +26,7 @@ brands:
     - img: /img/pws-logo.png
     - img: /img/sportsmansfinest-logo.png
 secondary:
-  heading: Email marketing the easy way
+  heading: Strategy Secondary Headline
   subheading: Why Ballistic
   copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -37,7 +37,7 @@ secondary:
   img: /img/flavor_wheel.jpg
 finalpitch:
   heading: Our technology outweighs the competition
-  subheading: Klaviyo Partner
+  subheading: Some other tech
   copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
