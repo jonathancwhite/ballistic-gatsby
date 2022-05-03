@@ -38,7 +38,7 @@ export const ServicesPageTemplate = ({
         pageTitle={hero.heading}
         ctaTitle={hero.ctaText}
         ctaLink={hero.ctaLink}
-        img={heroImage}
+        img={hero.img}
         showcaseAlt={hero.imgAlt}
       />
       <InternalPage>
@@ -46,7 +46,7 @@ export const ServicesPageTemplate = ({
           logoshowcaseList={brands.blist}
         />
         <CenteredBriefText heading={mainpitch.heading} copy={mainpitch.copy}/>
-        <SkewedSection horizontalImg={secondaryImage} imgAlt={secondary.imgAlt}>
+        <SkewedSection horizontalImg={secondary.img} imgAlt={secondary.imgAlt}>
           <SimpleSection
             classAdded={"darkbg"}
             heading={secondary.heading}

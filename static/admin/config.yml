@@ -326,7 +326,6 @@ collections:
               name: "brands",
               widget: "object",
               fields: [
-                { label: "Brands Title", name: "title", widget: "string", required: false },
                 { 
                   label: "Brands List",
                   name: "blist",
