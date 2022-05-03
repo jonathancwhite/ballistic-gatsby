@@ -436,15 +436,16 @@ collections:
                 { label: "Copy", name: "copy", widget: "text" },
               ]
             }
-      - file: "src/pages/ecommerce-strategy-plan/index.md"    
-        label: "Ecommerce Strategy Plan"
-        name: "strategy"
+  - name: "landing pages"
+      - file: "src/pages/web-development/index.md"    
+        label: "Web Development"
+        name: "webdev"
         fields:
           - {
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "strategy-page"
+              default: "dev-page"
             }
           - {
               label: "SEO",
@@ -514,7 +515,6 @@ collections:
                 { label: "Copy", name: "copy", widget: "text" },
               ]
             }
-  - name: "landing pages"
     label: "Landing Pages"
     folder: "src/pages/landing"
     create: true
