@@ -1,15 +1,15 @@
 ---
 templateKey: dev-page
 seohelmet:
-  title: Ballistic Agency | Email Marketing
-  canonical: https://www.migratetobigcommerce.com/email-marketing
+  title: Ballistic Agency | Web Design
+  canonical: https://www.migratetobigcommerce.com/web-development
   meta: This is a sample meta description that should be changed by the author of
     the page
   ogimg: /img/products-full-width.jpg
 hero:
-  heading: Email Marketing Heading
-  ctaText: Calculate your potential ROI
-  ctaLink: /email-roi
+  heading: Web Development
+  ctaText: Get our help
+  ctaLink: /contact-us
   img: /img/products-grid3.jpg
   imgAlt: random image
 mainpitch:
@@ -26,7 +26,7 @@ brands:
     - img: /img/pws-logo.png
     - img: /img/sportsmansfinest-logo.png
 secondary:
-  heading: Email marketing the easy way
+  heading: Dev the easy way
   subheading: Why Ballistic
   copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
