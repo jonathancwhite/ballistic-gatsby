@@ -46,7 +46,17 @@ collections:
               widget: "hidden",
               default: "index-page",
             }
-          - { label: Page Title, name: title, widget: string }
+          - {
+              label: "SEO",
+              name: "SEO",
+              widget: "object",
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Canonical URL", name: "canonical", widget: "string" },
+                { label: "Meta Description", name: "meta", widget: "text" },
+                { label: "Open Graph Image", name: "ogimg", widget: "image" }
+              ]
+            }
           - { label: Image, name: image, widget: image }
           - { label: Image Alt Text, name: imageAlt, widget: string }
           - { label: Heading, name: heading, widget: string }
@@ -169,7 +179,17 @@ collections:
               widget: "hidden",
               default: "about-page",
             }
-          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "SEO",
+              name: "SEO",
+              widget: "object",
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Canonical URL", name: "canonical", widget: "string" },
+                { label: "Meta Description", name: "meta", widget: "text" },
+                { label: "Open Graph Image", name: "ogimg", widget: "image" }
+              ]
+            }
           - { 
               label: "Hero", 
               name: "hero", 
