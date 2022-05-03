@@ -1,5 +1,5 @@
 ---
-templateKey: services-page
+templateKey: seo-page
 seohelmet:
   title: Ballistic Agency | Search Engine Optimization
   canonical: https://www.migratetobigcommerce.com/seo

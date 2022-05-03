@@ -1,5 +1,5 @@
 ---
-templateKey: services-page
+templateKey: email-page
 seohelmet:
   title: Ballistic Agency | Email Marketing
   canonical: https://www.migratetobigcommerce.com/email-marketing

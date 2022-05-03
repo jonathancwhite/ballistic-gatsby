@@ -287,7 +287,7 @@ collections:
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "services-page"
+              default: "seo-page"
             }
           - {
               label: "SEO",
@@ -366,7 +366,7 @@ collections:
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "services-page"
+              default: "email-page"
             }
           - {
               label: "SEO",
@@ -444,7 +444,7 @@ collections:
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "services-page"
+              default: "strategy-page"
             }
           - {
               label: "SEO",
