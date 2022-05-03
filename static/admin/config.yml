@@ -370,7 +370,7 @@ collections:
             }
           - {
               label: "SEO",
-              name: "SEO",
+              name: "seohelmet",
               widget: "object",
               fields: [
                 { label: "Title", name: "title", widget: "string" },

@@ -1,5 +1,6 @@
 ---
-SEO:
+templateKey: services-page
+seohelmet:
   title: Ballistic Agency | Email Marketing
   canonical: https://www.migratetobigcommerce.com/email-marketing
   meta: This is a sample meta description that should be changed by the author of
