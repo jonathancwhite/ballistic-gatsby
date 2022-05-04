@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: "Ballistic Agency | Optimized Ecommerce",
+    siteUrl: `https://www.migratetobigcommerce.com`,
     description:
       "Default meta description that should be overridden by the page.",
-    siteurl: "https://www.migratetobigcommerce.com"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
