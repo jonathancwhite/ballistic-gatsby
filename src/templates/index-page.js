@@ -193,7 +193,12 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        title
+        seohelmet {
+          title
+          meta
+          canonical
+          ogimg
+        }
         image {
           childImageSharp {
             gatsbyImageData(
