@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import { getImage, getSrc } from "gatsby-plugin-image";
+import { Helmet } from "react-helmet";
 
 import Layout from "../components/Layout";
 import Hero from '../components/Global/Hero';
@@ -11,7 +12,8 @@ import SimpleSection from '../components/SimpleSection/SimpleSection';
 import SkewedSection from '../components/SkewedSection/SkewedSectionSec';
 import ServicesPromo from '../components/Services/ServicesPromo';
 import Numbers from "../components/SkewedSection/Numbers";
-import BallisticLogoBG from '../img/logos/Ballistic-circle-white-21.png'
+import BallisticLogoBG from '../img/logos/Ballistic-circle-white-21.png';
+
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
