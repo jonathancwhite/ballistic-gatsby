@@ -15,6 +15,7 @@ import BallisticLogoBG from '../img/logos/Ballistic-circle-white-21.png'
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
+  seohelmet,
   image,
   imageAlt,
   title,
@@ -33,9 +34,17 @@ export const IndexPageTemplate = ({
   numbers
 }) => {
   const heroImage = getImage(image) || image;
+  const ogImage = getSrc(seohelmet.ogimg);
 
   return (
     <div>
+      <Helmet>
+        <title>{seohelmet.title}</title>
+        <meta name="description" content={seohelmet.meta} />
+        <link rel="canonical" href={seohelmet.canonical} />
+        <meta property="og:image" content={ogImage} />
+        <meta property="og:url" content={seohelmet.canonical} />
+      </Helmet>
       <Hero
         pageTitle={heading}
         pageSubText={subheading}

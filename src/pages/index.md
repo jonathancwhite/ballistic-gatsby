@@ -1,6 +1,10 @@
 ---
 templateKey: index-page
-title: Ballistic Agency | Not just another opinion
+seohelmet:
+  title: Ballistic Agency | Not just another opinion
+  meta: Sample description that needs to be updated
+  canonical: https://www.migratetobigcommerce.com
+  ogimg: /img/pahq-showcase.png
 image: /img/pahq-showcase.png
 imageAlt: Power Athlete Showcase - Screenshot of site
 heading: Not just another opinion
