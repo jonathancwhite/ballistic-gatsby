@@ -34,7 +34,6 @@ export const IndexPageTemplate = ({
   numbers
 }) => {
   const heroImage = getImage(image) || image;
-  const ogImage = getSrc(seohelmet.ogimg);
 
   return (
     <div>
@@ -42,7 +41,7 @@ export const IndexPageTemplate = ({
         <title>{seohelmet.title}</title>
         <meta name="description" content={seohelmet.meta} />
         <link rel="canonical" href={seohelmet.canonical} />
-        <meta property="og:image" content={ogImage} />
+        {/* <meta property="og:image" content={ogImage} /> */}
         <meta property="og:url" content={seohelmet.canonical} />
       </Helmet>
       <Hero
@@ -197,14 +196,6 @@ export const pageQuery = graphql`
           title
           meta
           canonical
-          ogimg {
-            childImageSharp {
-              gatsbyImageData(
-                quality: 100, 
-                placeholder: BLURRED
-              )
-            }
-          }
         }
         image {
           childImageSharp {
