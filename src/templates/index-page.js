@@ -197,7 +197,14 @@ export const pageQuery = graphql`
           title
           meta
           canonical
-          ogimg
+          ogimg {
+            childImageSharp {
+              gatsbyImageData(
+                quality: 100, 
+                placeholder: BLURRED
+              )
+            }
+          }
         }
         image {
           childImageSharp {
