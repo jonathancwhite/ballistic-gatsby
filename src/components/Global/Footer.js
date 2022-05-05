@@ -19,8 +19,6 @@ const Footer = () => {
                     <ul>
                         <li className='footer__links'><Link to="/">About Us</Link></li>
                         <li className='footer__links'><Link to="/our-team">Careers</Link></li>
-                        <li className='footer__links'><Link to="/blog">Blog</Link></li>
-                        <li className='footer__links'><Link to="/blog">Newsroom</Link></li>
                     </ul>
                 </div>
                 <div className="footer__column">
@@ -29,7 +27,7 @@ const Footer = () => {
                         <li className='footer__links'><Link to="/">Support</Link></li>
                         <li className='footer__links'><Link to="/">Contact</Link></li>
                         <li className='footer__links'><Link to="/">Privacy & Terms</Link></li>
-                        <li className='footer__links'><Link to="/">Sitemap</Link></li>
+                        <li className='footer__links'><Link to="/sitemap/sitemap-0.xml">Sitemap</Link></li>
                         <li className='footer__links'><Link to="/">Brand Assets</Link></li>
                     </ul>
                 </div>
@@ -37,9 +35,8 @@ const Footer = () => {
                     <h4>Services</h4>
                     <ul>
                         <li className='footer__links'><Link to="/seo">Search engine optimization</Link></li>
-                        <li className='footer__links'><Link to="/">Email marketing</Link></li>
-                        <li className='footer__links'><Link to="/">Web design & development</Link></li>
-                        <li className='footer__links'><Link to="/headless">Headless ecommerce</Link></li>
+                        <li className='footer__links'><Link to="/email-marketing">Email marketing</Link></li>
+                        <li className='footer__links'><Link to="/web-development">Web design & development</Link></li>
                     </ul>
                 </div>
             </div>
