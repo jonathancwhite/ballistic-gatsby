@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MenuItems } from './MenuItems';
 import { Link } from 'gatsby';
+import $ from 'jquery';
 
 function Dropdown() {
   const [click, setClick] = useState(false);

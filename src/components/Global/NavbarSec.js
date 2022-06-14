@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import BallisticLogo from '../../img/logos/ba-logo-cropped.png'
 import Dropdown from './Dropdown';
 import { Link } from 'gatsby';
+import $ from 'jquery';
 
 function Navbar({navbgStyle, headerColor}) {
   const [click, setClick] = useState(false);
@@ -10,19 +11,31 @@ function Navbar({navbgStyle, headerColor}) {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  function boldNavItem() {
+    $('.dropdown-parent > a').css('font-weight', '700');
+  }
+
+  function unboldNavItem() {
+    $('.dropdown-parent > a').css('font-weight', '');
+  }
+
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {
       setDropdown(false);
+      unboldNavItem();
     } else {
       setDropdown(true);
+      boldNavItem();
     }
   };
 
   const onMouseLeave = () => {
     if (window.innerWidth < 960) {
       setDropdown(false);
+      unboldNavItem();
     } else {
       setDropdown(false);
+      unboldNavItem();
     }
   };
 
@@ -43,7 +56,7 @@ function Navbar({navbgStyle, headerColor}) {
             </Link>
           </li>
           <li
-            className='nav-item'
+            className='nav-item dropdown-parent'
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >

@@ -5,7 +5,7 @@
         margin: auto;
     }
     &__heading {
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
         h4 {
             font-size: $subheading-size;
             font-weight: 600;
@@ -20,7 +20,7 @@
     }
     &__copy {
         display: flex;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
 
         &--secondary {
             padding-top: calc($section-padding / 2);
