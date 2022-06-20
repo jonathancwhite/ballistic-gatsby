@@ -131,7 +131,9 @@ location: Remote
 ---
 The Graphic Design position at Ballistic Agency will report to the Art Director and partner with internal and external teams. This position will be responsible for creating and managing advertising campaign materials for multiple client accounts and the Ballistic Agency brand, including email, digital content, advertising, paid and organic social media, and print materials. This position must have a very strong eye for design and be able to execute multiple projects in a fun, fast-paced work environment.
 
-**Responsibilities:**
+**<br>**
+
+**<h3>Responsibilities:</h3>**
 
 * Design a range of marketing materials with a focus on email marketing. You will create appropriate design solutions with the intent of selling merchandise, service, or brand-related messaging. These designs will adhere to best practices, be creative, and keep with the appropriate brand.
 * Responsible for taking your projects from concept to final execution in coordination with the Art Director and client.
@@ -144,7 +146,9 @@ The Graphic Design position at Ballistic Agency will report to the Art Director 
 * Assist the Founder & CEO with strategic initiatives related to task and project management on a daily, weekly, and monthly basis by building necessary accountability measures, meetings, and metrics related to strengthening communication, capacity, expectations, and execution
 * Assist company leadership with organization, documentation, and creative collateral related to internal processes, client relationship management, sales and marketing, and other revenue-generating business functions.
 
-**Qualifications:**
+**<br>**
+
+**<h3>Qualifications:</h3>**
 
 * Bachelor's Degree in Art/Graphic Design or Related Field
 * 1-5 Years of Experience
