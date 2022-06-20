@@ -126,7 +126,7 @@ jobpost:
 
 
     * Bachelor's Degree
-title: Graphic Designer I
+title: Junior Graphic Designer
 location: Remote
 ---
 The Graphic Design position at Ballistic Agency will report to the Art Director and partner with internal and external teams. This position will be responsible for creating and managing advertising campaign materials for multiple client accounts and the Ballistic Agency brand, including email, digital content, advertising, paid and organic social media, and print materials. This position must have a very strong eye for design and be able to execute multiple projects in a fun, fast-paced work environment.
