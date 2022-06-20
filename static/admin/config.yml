@@ -367,7 +367,7 @@ collections:
                   fields: 
                     [
                       { label: "Logo", name: "logo", widget: "image" },
-                      { label: "Logo Alt Text", name: "logoAlt", widget: "string" }
+                      { label: "Logo Alt Text", name: "logoAlt", widget: "string" },
                       { label: "Link", name: "link", widget: "string" }
                     ]
                 }
