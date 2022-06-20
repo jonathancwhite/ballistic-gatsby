@@ -13,7 +13,7 @@ import { Helmet } from "react-helmet";
 export const JobListingPageTemplate = ({
     seohelmet,
     hero,
-    mainpitch,
+    jobpost
 }) => {
   const ogImage = getSrc(seohelmet.ogimg);
 
@@ -30,10 +30,10 @@ export const JobListingPageTemplate = ({
         pageTitle={hero.heading}
       />
       <InternalPage>
-        <CenteredBriefText heading={mainpitch.heading} copy={mainpitch.copy}/>
-        {/* <div className="job-description">
-            {job.description}
-        </div> */}
+        <CenteredBriefText heading={jobpost.title}/>
+        <div className="job-description">
+            {jobpost.description}
+        </div>
       </InternalPage>
     </div>
   );
@@ -42,7 +42,7 @@ export const JobListingPageTemplate = ({
 JobListingPageTemplate.propTypes = {
   seohelmet: PropTypes.object,
   hero: PropTypes.object,
-  mainpitch: PropTypes.object,
+  jobpost: PropTypes.object,
 };
 
 const JobListingPage = ({ data }) => {
@@ -53,7 +53,7 @@ const JobListingPage = ({ data }) => {
       <JobListingPageTemplate
         seohelmet={frontmatter.seohelmet}
         hero={frontmatter.hero}
-        mainpitch={frontmatter.mainpitch}
+        jobpost={frontmatter.jobpost}
       />
     </Layout>
   );
@@ -99,9 +99,9 @@ export const pageQuery = graphql`
           }
           imgAlt
         }
-        mainpitch {
-          heading
-          copy
+        jobpost {
+            title
+            description
         }
       }
     }
