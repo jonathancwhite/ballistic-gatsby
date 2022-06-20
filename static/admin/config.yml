@@ -599,13 +599,13 @@ collections:
     label: "Jobs"
     folder: "src/pages/jobs"
     create: true
-    slug: "jobs/{{slug}}"
+    slug: "{{fields.slug}}"
     fields:
     - {
         label: "Template Key",
         name: "templateKey",
         widget: "hidden",
-        default: "landing-page",
+        default: "job-listing-page",
       }
     - { label: "Page Slug", name: "slug", widget: "string" }
     - {
