@@ -595,27 +595,27 @@ collections:
             { label: "Copy", name: "copy", widget: "text" },
           ]
         }
-      - name: "jobs"
-        label: "Jobs"
-        folder: "src/pages/jobs"
-        create: true
-        slug: "jobs/{{slug}}"
-        fields:
-        - {
-            label: "Template Key",
-            name: "templateKey",
-            widget: "hidden",
-            default: "landing-page",
-          }
-        - { label: "Page Slug", name: "slug", widget: "string" }
-        - {
-            label: "SEO",
-            name: "seohelmet",
-            widget: "object",
-            fields: [
-              { label: "Title", name: "title", widget: "string" },
-              { label: "Canonical URL", name: "canonical", widget: "string" },
-              { label: "Meta Description", name: "meta", widget: "text" },
-              { label: "Open Graph Image", name: "ogimg", widget: "image" }
-            ]
-          }
+  - name: "jobs"
+    label: "Jobs"
+    folder: "src/pages/jobs"
+    create: true
+    slug: "jobs/{{slug}}"
+    fields:
+    - {
+        label: "Template Key",
+        name: "templateKey",
+        widget: "hidden",
+        default: "landing-page",
+      }
+    - { label: "Page Slug", name: "slug", widget: "string" }
+    - {
+        label: "SEO",
+        name: "seohelmet",
+        widget: "object",
+        fields: [
+          { label: "Title", name: "title", widget: "string" },
+          { label: "Canonical URL", name: "canonical", widget: "string" },
+          { label: "Meta Description", name: "meta", widget: "text" },
+          { label: "Open Graph Image", name: "ogimg", widget: "image" }
+        ]
+      }
