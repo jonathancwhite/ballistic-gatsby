@@ -21,7 +21,7 @@ export const JobPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <h4>{location}</h4>
+            {/* <h4>{location}</h4> */}
             <p>{description}</p>
             <PostContent content={content} />
           </div>
