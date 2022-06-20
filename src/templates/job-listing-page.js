@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby";
 import { getImage, getSrc } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
-import Hero from '../components/Global/Hero';
 import InternalPage from '../components/Global/InternalPage';
 import CenteredBriefText from '../components/Global/CenteredBriefText';
 import { Helmet } from "react-helmet";
@@ -26,11 +25,8 @@ export const JobListingPageTemplate = ({
           <meta property="og:image" content={ogImage} />
           <meta property="og:url" content={seohelmet.canonical} />
       </Helmet>
-      <Hero
-        pageTitle={hero.heading}
-      />
       <InternalPage>
-        <CenteredBriefText heading={jobpost.title}/>
+        <CenteredBriefText heading={jobpost.title} copy={jobpost.location}/>
         <div className="job-description">
             {jobpost.description}
         </div>
@@ -101,6 +97,7 @@ export const pageQuery = graphql`
         }
         jobpost {
             title
+            location
             description
         }
       }
