@@ -9,7 +9,6 @@ export const JobPostTemplate = ({
   content,
   contentComponent,
   description,
-  location,
   title,
 }) => {
   const PostContent = contentComponent || Content;
@@ -22,7 +21,7 @@ export const JobPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <h4>{location}</h4>
+            {/* <h4>{location}</h4> */}
             <p>{description}</p>
             <PostContent content={content} />
           </div>
@@ -37,7 +36,7 @@ JobPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  location: PropTypes.string
+  // location: PropTypes.string
 };
 
 const JobPost = ({ data }) => {
@@ -49,7 +48,7 @@ const JobPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        location={post.frontmatter.location}
+        // location={post.frontmatter.location}
         title={post.frontmatter.title}
       />
     </Layout>
@@ -72,7 +71,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
-        location
       }
     }
   }
