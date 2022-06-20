@@ -14,7 +14,6 @@ export const JobListingPageTemplate = ({
     seohelmet,
     hero,
     mainpitch,
-    job
 }) => {
   const heroImage = getImage(hero.img);
   const ogImage = getSrc(seohelmet.ogimg);
@@ -37,9 +36,9 @@ export const JobListingPageTemplate = ({
       />
       <InternalPage>
         <CenteredBriefText heading={mainpitch.heading} copy={mainpitch.copy}/>
-        <div className="job-description">
+        {/* <div className="job-description">
             {job.description}
-        </div>
+        </div> */}
       </InternalPage>
     </div>
   );
@@ -49,7 +48,6 @@ JobListingPageTemplate.propTypes = {
   seohelmet: PropTypes.object,
   hero: PropTypes.object,
   mainpitch: PropTypes.object,
-  job: PropTypes.object
 };
 
 const JobListingPage = ({ data }) => {
@@ -61,7 +59,6 @@ const JobListingPage = ({ data }) => {
         seohelmet={frontmatter.seohelmet}
         hero={frontmatter.hero}
         mainpitch={frontmatter.mainpitch}
-        job={frontmatter.job}
       />
     </Layout>
   );
@@ -110,9 +107,6 @@ export const pageQuery = graphql`
         mainpitch {
           heading
           copy
-        }
-        job {
-            description
         }
       }
     }
