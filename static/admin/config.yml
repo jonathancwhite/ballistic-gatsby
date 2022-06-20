@@ -279,6 +279,100 @@ collections:
                   }
                 ]
             }
+      - file: "src/pages/our-work/index.md"
+        label: "Our Work"
+        name: "work"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "work-page",
+            }
+          - {
+              label: "SEO",
+              name: "seohelmet",
+              widget: "object",
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Canonical URL", name: "canonical", widget: "string" },
+                { label: "Meta Description", name: "meta", widget: "text" },
+                { label: "Open Graph Image", name: "ogimg", widget: "image" }
+              ]
+            }
+          - { 
+              label: "Hero", 
+              name: "hero", 
+              widget: "object",
+              fields: [
+                { label: "Heading", name: "heading", widget: "string" },
+                { label: "Copy", name: "copy", widget: "string" },
+                { label: "Image", name: "img", widget: "image"},
+                { label: "Image Alt Text", name: "imgAlt", widget: "string"}
+              ] 
+            }
+          - {
+              label: "Latest Success",
+              name: "latest",
+              widget: "object",
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Copy", name: "copy", widget: "text" },
+                { label: "Showcase Image", name: "img", widget: "image" },
+                { label: "Showcase Image Alt", name: "imgAlt", widget: "string" }
+              ]
+            }
+          - {
+              label: "Whitepaper",
+              name: "whitepaper",
+              widget: "object",
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Copy", name: "copy", widget: "text" },
+                { label: "Showcase Image", name: "img", widget: "image" },
+                { label: "Showcase Image Alt", name: "imgAlt", widget: "string" }
+              ]
+            }
+          - {
+              label: "Marketing Banner",
+              name: "marketing",
+              widget: "object",
+              fields: [
+                { label: "Marketing Banner", name: "img", widget: "image" },
+                { label: "Marketing Banner Alt", name: "imgAlt", widget: "string" }
+              ]
+            }
+          - {
+              label: "Email Latest Success",
+              name: "emaillatest",
+              widget: "object",
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Copy", name: "copy", widget: "text" },
+                { label: "Showcase Image", name: "img", widget: "image" },
+                { label: "Showcase Image Alt", name: "imgAlt", widget: "string" }
+              ]
+            }
+          - {
+              label: "Projects",
+              name: "projects",
+              widget: "object",
+              fields: [
+                { label: "Heading", name: "title", widget: "string" },
+                { label: "Copy", name: "copy", widget: "text" },
+                { 
+                  label: "Project Item",
+                  name: "item",
+                  widget: "list",
+                  fields: 
+                    [
+                      { label: "Logo", name: "logo", widget: "image" },
+                      { label: "Logo Alt Text", name: "logoAlt", widget: "string" }
+                      { label: "Link", name: "link", widget: "string" }
+                    ]
+                }
+              ]
+            }          
       - file: "src/pages/seo/index.md"
         label: "Search Engine Optimization"
         name: "seo"
