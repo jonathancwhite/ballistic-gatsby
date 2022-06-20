@@ -1,5 +1,5 @@
 ---
-templateKey: landing-page
+templateKey: job-listing-page
 slug: graphic-designer
 seohelmet:
   title: Ballistic Agency | Graphic Designer

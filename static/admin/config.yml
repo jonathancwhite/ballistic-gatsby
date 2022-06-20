@@ -619,3 +619,12 @@ collections:
           { label: "Open Graph Image", name: "ogimg", widget: "image" }
         ]
       }
+    - {
+        label: "Job Posting",
+        name: "jobpost",
+        widget: "object",
+        fields: [
+          { label: "Title", name: "title", widget: "string" },
+          { label: "Job Description", name: "description", widget: "text"}
+        ]
+    }
