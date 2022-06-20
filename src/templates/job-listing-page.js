@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import { getSrc } from "gatsby-plugin-image";
-import { Octokit, App } from "octokit";
 
 import Layout from "../components/Layout";
 import InternalPage from '../components/Global/InternalPage';
@@ -16,16 +15,6 @@ export const JobListingPageTemplate = ({
     jobpost
 }) => {
   const ogImage = getSrc(seohelmet.ogimg);
-
-  const octokit = new Octokit({
-    auth: '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'
-  })
-  
-  var response = await octokit.request('POST /markdown', {
-    text: jobpost.description
-  })
-
-  console.log(response);
 
   return (
     <div>
