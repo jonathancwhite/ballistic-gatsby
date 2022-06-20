@@ -625,6 +625,6 @@ collections:
         widget: "object",
         fields: [
           { label: "Title", name: "title", widget: "string" },
-          { label: "Job Description", name: "description", widget: "text"}
+          { label: "Job Description", name: "description", widget: "markdown"}
         ]
     }
