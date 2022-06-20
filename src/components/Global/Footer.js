@@ -36,7 +36,7 @@ const Footer = () => {
                     <ul>
                         <li className='footer__links'><Link to="/seo">Search engine optimization</Link></li>
                         <li className='footer__links'><Link to="/email-marketing">Email marketing</Link></li>
-                        <li className='footer__links'><Link to="/">Web design & development</Link></li>
+                        <li className='footer__links'><Link to="/web-development">Web design & development</Link></li>
                     </ul>
                 </div>
             </div>
