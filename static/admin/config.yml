@@ -620,6 +620,14 @@ collections:
         ]
       }
     - {
+      label: "Hero", 
+        name: "hero", 
+        widget: "object",
+        fields: [
+          { label: "Heading", name: "heading", widget: "string" }
+        ] 
+    }
+    - {
         label: "Job Posting",
         name: "jobpost",
         widget: "object",

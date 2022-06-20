@@ -15,7 +15,6 @@ export const JobListingPageTemplate = ({
     hero,
     mainpitch,
 }) => {
-  const heroImage = getImage(hero.img);
   const ogImage = getSrc(seohelmet.ogimg);
 
   return (
@@ -29,10 +28,6 @@ export const JobListingPageTemplate = ({
       </Helmet>
       <Hero
         pageTitle={hero.heading}
-        ctaTitle={hero.ctaText}
-        ctaLink={hero.ctaLink}
-        img={heroImage}
-        showcaseAlt={hero.imgAlt}
       />
       <InternalPage>
         <CenteredBriefText heading={mainpitch.heading} copy={mainpitch.copy}/>
