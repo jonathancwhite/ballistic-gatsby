@@ -126,4 +126,33 @@ jobpost:
 
 
     * Bachelor's Degree
+title: Graphic Designer I
+location: Remote
 ---
+The Graphic Design position at Ballistic Agency will report to the Art Director and partner with internal and external teams. This position will be responsible for creating and managing advertising campaign materials for multiple client accounts and the Ballistic Agency brand, including email, digital content, advertising, paid and organic social media, and print materials. This position must have a very strong eye for design and be able to execute multiple projects in a fun, fast-paced work environment.
+
+**Responsibilities:**
+
+* Design a range of marketing materials with a focus on email marketing. You will create appropriate design solutions with the intent of selling merchandise, service, or brand-related messaging. These designs will adhere to best practices, be creative, and keep with the appropriate brand.
+* Responsible for taking your projects from concept to final execution in coordination with the Art Director and client.
+* Ensure that each assigned project accurately meets all specifications, is approved by all stakeholders, and is delivered or deployed promptly through proper communication with the internal team and the client.
+* The management of several facets of email marketing to position our clients' advertising for consistent success. This includes building email campaigns, properly segmenting audiences, performing A/B Tests, running emails through optimization tests, and more.
+* In partnership with the other members of the design team, you will help develop new marketing opportunities while focusing on the thematic brand that will help our clients and the company brand stand out from the clutter of the digital world.
+* Assist the Art Director in the documentation of processes, tests, and upgrades to continue our company's systematic excellence.
+* Stay on top of current email marketing and design trends, help to maintain best practices, and present new strategic opportunities as they arise.
+* Position yourself as an industry expert in your field through continuing education to contribute to allow you to create advertising materials, write articles, feature in videos, and offer solutions to internal teams and clients.
+* Assist the Founder & CEO with strategic initiatives related to task and project management on a daily, weekly, and monthly basis by building necessary accountability measures, meetings, and metrics related to strengthening communication, capacity, expectations, and execution
+* Assist company leadership with organization, documentation, and creative collateral related to internal processes, client relationship management, sales and marketing, and other revenue-generating business functions.
+
+**Qualifications:**
+
+* Bachelor's Degree in Art/Graphic Design or Related Field
+* 1-5 Years of Experience
+* Proficient in the Adobe Creative Suite - Illustrator, Photoshop, InDesign
+* Portfolio for Review
+* Efficient Work Flow
+* Strong Eye for Design
+* An explorative design sensibility
+* Strong Attention to Detail
+* Able to Accept Criticism
+* Have an understanding of advertising for digital and social media channels
