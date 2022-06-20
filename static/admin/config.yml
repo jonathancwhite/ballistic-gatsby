@@ -644,51 +644,8 @@ collections:
             { label: "Image Alt Text", name: "imgAlt", widget: "string"}
           ] 
         }
-      - {
-          label: "Mainpitch",
-          name: "mainpitch",
-          widget: "object",
-          fields: [
-            { label: "Heading", name: "heading", widget: "string" },
-            { label: "Copy", name: "copy", widget: "text" }
-          ]
-        }
-      - {
-          label: "Brands Showcase",
-          name: "brands",
-          widget: "object",
-          fields: [
-            { 
-              label: "Brands List",
-              name: "blist",
-              widget: "list",
-              fields: [
-                { label: "Brand Logo", name: "img", widget: "image" }
-              ]
-            }
-          ]
-        }
-      - {
-          label: "Secondary Pitch",
-          name: "secondary",
-          widget: "object",
-          fields: [
-            { label: "Heading", name: "heading", widget: "string" },
-            { label: "Subheading", name: "subheading", widget: "string" },
-            { label: "Copy", name: "copy", widget: "text" },
-            { label: "Image", name: img, widget: "image" }
-          ]
-        }
-      - {
-          label: "Final Pitch",
-          name: "finalpitch",
-          widget: "object",
-          fields: [
-            { label: "Heading", name: "heading", widget: "string" },
-            { label: "Subheading", name: "subheading", widget: "string" },
-            { label: "Copy", name: "copy", widget: "text" },
-          ]
-        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "jobs"
     label: "Jobs"
     folder: "src/pages/jobs"
