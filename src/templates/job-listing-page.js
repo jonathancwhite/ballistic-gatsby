@@ -1,105 +1,78 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
-import { getSrc } from "gatsby-plugin-image";
-
+import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
-import InternalPage from '../components/Global/InternalPage';
-import CenteredBriefText from '../components/Global/CenteredBriefText';
-import { Helmet } from "react-helmet";
+import Content, { HTMLContent } from "../components/Content";
 
 // eslint-disable-next-line
-export const JobListingPageTemplate = ({
-    seohelmet,
-    hero,
-    jobpost
+export const JobPostTemplate = ({
+  content,
+  contentComponent,
+  description,
+  location,
+  title,
 }) => {
-  const ogImage = getSrc(seohelmet.ogimg);
+  const PostContent = contentComponent || Content;
 
   return (
-    <div>
-      <Helmet>
-          <title>{seohelmet.title}</title>
-          <meta name="description" content={seohelmet.meta} />
-          <link rel="canonical" href={seohelmet.canonical} />
-          <meta property="og:image" content={ogImage} />
-          <meta property="og:url" content={seohelmet.canonical} />
-      </Helmet>
-      <InternalPage>
-        <CenteredBriefText heading={jobpost.title} copy={jobpost.location}/>
-        <div className="job-description">
-            {jobpost.description}
+    <section className="section">
+      <div className="container content">
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+              {title}
+            </h1>
+            <h4>{location}</h4>
+            <p>{description}</p>
+            <PostContent content={content} />
+          </div>
         </div>
-      </InternalPage>
-    </div>
+      </div>
+    </section>
   );
 };
 
-JobListingPageTemplate.propTypes = {
-  seohelmet: PropTypes.object,
-  hero: PropTypes.object,
-  jobpost: PropTypes.object,
+JobPostTemplate.propTypes = {
+  content: PropTypes.node.isRequired,
+  contentComponent: PropTypes.func,
+  description: PropTypes.string,
+  title: PropTypes.string,
+  location: PropTypes.string
 };
 
-const JobListingPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+const JobPost = ({ data }) => {
+  const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <JobListingPageTemplate
-        seohelmet={frontmatter.seohelmet}
-        hero={frontmatter.hero}
-        jobpost={frontmatter.jobpost}
+      <JobPostTemplate
+        content={post.html}
+        contentComponent={HTMLContent}
+        description={post.frontmatter.description}
+        location={post.frontmatter.location}
+        title={post.frontmatter.title}
       />
     </Layout>
   );
 };
 
-JobListingPage.propTypes = {
+JobPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
+    markdownRemark: PropTypes.object,
   }),
 };
 
-export default JobListingPage;
+export default JobPost;
 
 export const pageQuery = graphql`
-  query JobListingPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "job-listing-page" } }) {
+  query JobPostByID($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      id
+      html
       frontmatter {
-        seohelmet {
-            title,
-            canonical,
-            meta,
-            ogimg {
-              childImageSharp {
-                gatsbyImageData(
-                    quality: 100
-                )
-              }
-            }
-        }
-        hero {
-          heading
-          ctaText
-          ctaLink
-          img {
-            childImageSharp {
-              gatsbyImageData(
-                quality: 100, 
-                placeholder: BLURRED
-              )
-            }
-          }
-          imgAlt
-        }
-        jobpost {
-            title
-            location
-            description
-        }
+        title
+        description
+        location
       }
     }
   }
