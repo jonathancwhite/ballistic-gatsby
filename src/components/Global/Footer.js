@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className="footer__column">
                     <h4>Resources</h4>
                     <ul>
-                        <li className='footer__links'><Link to="mailto:help@ballisticagency.com">Support</Link></li>
+                        <li className='footer__links'><a href="mailto:help@ballisticagency.com">Support</a></li>
                         <li className='footer__links'><Link to="/">Contact</Link></li>
                         <li className='footer__links'><Link to="/">Privacy & Terms</Link></li>
                         <li className='footer__links'><Link to="/sitemap/sitemap-0.xml">Sitemap</Link></li>
