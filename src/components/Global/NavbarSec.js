@@ -80,7 +80,7 @@ function Navbar({navbgStyle, headerColor}) {
           </li>
           <li className='nav-item'>
             <Link
-              to='/contact-us'
+              to='/contact'
               className='nav-links'
               onClick={closeMobileMenu}
             >
