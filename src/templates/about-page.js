@@ -114,7 +114,13 @@ export const aboutPageQuery = graphql`
           title
           canonical
           meta
-          ogimg
+          ogimg {
+            childImageSharp {
+              gatsbyImageData {
+                quality: 100
+              }
+            }
+          }
         }
         hero {
           heading
