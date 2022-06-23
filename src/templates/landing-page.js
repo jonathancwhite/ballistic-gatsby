@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Global/Hero";
 import { Helmet } from "react-helmet";
+import { getImage } from "gatsby-plugin-image";
 
 // eslint-disable-next-line
 export const LandingPageTemplate = ({
