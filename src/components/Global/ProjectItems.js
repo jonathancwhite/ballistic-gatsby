@@ -2,6 +2,10 @@ import React from 'react'
 
 const ProjectItems = ({list}) => {
     let projectList = list
+    if (projectList.length < 1) {
+        projectList = null;
+        return <div></div>
+    }
 
     return (
         <div className="otherprojects-grid">
