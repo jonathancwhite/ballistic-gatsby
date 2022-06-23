@@ -1,4 +1,5 @@
 ---
+templateKey: work-page
 seohelmet:
   title: Ballistic Agency | Work that speaks for itself
   canonical: https://www.migratetobigcommerce.com/our-work

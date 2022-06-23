@@ -123,7 +123,7 @@ export default WorkPage;
 
 export const pageQuery = graphql`
   query WorkPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "seo-page" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "work-page" } }) {
       frontmatter {
         seohelmet {
             title,
