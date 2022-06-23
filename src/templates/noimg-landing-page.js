@@ -49,7 +49,8 @@ NoIMGLandingPageTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   title: PropTypes.string,
-  seohelmet: PropTypes.object
+  seohelmet: PropTypes.object,
+  hero: PropTypes.object
 };
 
 const NoIMGLandingPage = ({ data }) => {
@@ -61,6 +62,7 @@ const NoIMGLandingPage = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        hero={post.frontmatter.hero}
       />
     </Layout>
   );
