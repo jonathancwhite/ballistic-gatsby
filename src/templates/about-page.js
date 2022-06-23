@@ -110,6 +110,12 @@ export const aboutPageQuery = graphql`
     markdownRemark(frontmatter: {templateKey: { eq: "about-page" } }) {
       frontmatter {
         title
+        seohelmet {
+          title
+          canonical
+          meta
+          ogimg
+        }
         hero {
           heading
           copy
