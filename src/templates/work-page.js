@@ -12,7 +12,12 @@ import ProjectItems from "../components/Global/ProjectItems";
 // eslint-disable-next-line
 export const WorkPageTemplate = ({
     seohelmet,
-    hero
+    hero,
+    latest,
+    whitepaper,
+    marketing,
+    emaillatest,
+    projects
 }) => {
   const heroImage = getImage(hero.img);
   const ogImage = getSrc(seohelmet.ogimg);
@@ -81,6 +86,11 @@ export const WorkPageTemplate = ({
 WorkPageTemplate.propTypes = {
   seohelmet: PropTypes.object,
   hero: PropTypes.object,
+  latest: PropTypes.object,
+  whitepaper: PropTypes.object,
+  marketing: PropTypes.object,
+  emaillatest: PropTypes.object,
+  projects: PropTypes.object
 };
 
 const WorkPage = ({ data }) => {
@@ -91,6 +101,11 @@ const WorkPage = ({ data }) => {
       <WorkPageTemplate
         seohelmet={frontmatter.seohelmet}
         hero={frontmatter.hero}
+        latest={frontmatter.latest}
+        whitepaper={frontmatter.whitepaper}
+        marketing={frontmatter.marketing}
+        emaillatest={frontmatter.emaillatest}
+        projects={frontmatter.projects}
       />
     </Layout>
   );
