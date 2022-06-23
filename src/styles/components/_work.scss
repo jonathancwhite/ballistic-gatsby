@@ -45,12 +45,13 @@
 }
 
 .emailmarketing-showcase {
+    margin-top: 2rem;
     .latest-success {
-        width: 70%;
+        width: 80%;
         h4 {
             padding-bottom: 1rem;
         }
-        padding-bottom: 2rem;
+        padding-bottom: 3rem;
     }
     img {
         width: 100%;
@@ -60,7 +61,7 @@
 }
 
 .otherprojects {
-    padding-top: calc($section-padding / 2);
+    padding-top: 2rem;
 }
 
 .otherprojects-grid {
