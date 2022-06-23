@@ -18,14 +18,14 @@ export const NoIMGLandingPageTemplate = ({
 
   return (
     <>
-    <Helmet>
+    {/* <Helmet>
       <title>{seohelmet.title}</title>
       <link rel="canonical" href={seohelmet.canonical} />
       <meta name="description" content={seohelmet.meta} />
       <meta property="og:image" content={seohelmet.ogimg} />
       <meta property="og:title" content={seohelmet.title} />
       <meta property="og:description" content={seohelmet.meta} />
-    </Helmet>
+    </Helmet> */}
     <Hero 
       pageTitle={hero.heading}
     />
