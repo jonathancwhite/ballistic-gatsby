@@ -15,6 +15,7 @@ import { Helmet } from "react-helmet";
 
 // eslint-disable-next-line
 export const AboutPageTemplate = ({ 
+  seohelmet,
   hero,
   team, 
   corevalues,
@@ -69,6 +70,7 @@ export const AboutPageTemplate = ({
 };
 
 AboutPageTemplate.propTypes = {
+  seohelmet: PropTypes.object,
   hero: PropTypes.object,
   team: PropTypes.object,
   corevalues: PropTypes.object,
@@ -82,6 +84,7 @@ const AboutPage = ({ data }) => {
   return (
     <Layout>
       <AboutPageTemplate
+        seohelmet={frontmatter.seohelmet}
         hero={frontmatter.hero}
         team={frontmatter.team}
         corevalues={frontmatter.corevalues}
@@ -107,6 +110,7 @@ export const aboutPageQuery = graphql`
     markdownRemark(frontmatter: {templateKey: { eq: "about-page" } }) {
       frontmatter {
         title
+        seohelmet
         hero {
           heading
           copy
