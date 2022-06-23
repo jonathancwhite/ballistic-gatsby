@@ -1,8 +1,35 @@
-.latestProject {
-    width: 70%;
-    p {
-        padding-top: 1rem;
+.latest-success {
+    h4 {
+        padding-bottom: 1rem;
     }
+    padding-bottom: 2rem;
+    &-img {
+        height: 200px;
+        width: 100%;
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.whitepaper {
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+
+    &-copy {
+        width: 50%;
+    }
+    &-preview {
+        width: 50%;
+        border-radius: 8px;
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    }   
 }
 
 .caseStudy {
