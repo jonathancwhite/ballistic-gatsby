@@ -43,7 +43,7 @@ export const IndexPageTemplate = ({
         <title>{seohelmet.title}</title>
         <meta name="description" content={seohelmet.meta} />
         <link rel="canonical" href={seohelmet.canonical} />
-        <meta property="og:image" content={ogImage} />
+        <meta property="og:image" content={seohelmet.ogimg} />
         <meta property="og:url" content={seohelmet.canonical} />
       </Helmet>
       <Hero
