@@ -610,7 +610,7 @@ collections:
             }
   - name: "landing pages"
     label: "Landing Pages"
-    folder: "src/pages/landing"
+    folder: "src/pages/"
     create: true
     slug: "{{fields.slug}}"
     fields:
