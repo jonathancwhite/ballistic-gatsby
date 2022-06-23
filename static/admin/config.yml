@@ -639,13 +639,9 @@ collections:
           widget: "object",
           fields: [
             { label: "Heading", name: "heading", widget: "string" },
-            { label: "CTA Text", name: "ctaText", widget: "string", required: false},
-            { label: "CTA Link", name: "ctaLink", widget: "string", required: false },
-            { label: "Image", name: "img", widget: "image", required: false},
-            { label: "Image Alt Text", name: "imgAlt", widget: "string", required: false}
           ] 
         }
-      - { label: "Title", name: "title", widget: "string", required: false }
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "jobs"
     label: "Jobs"
