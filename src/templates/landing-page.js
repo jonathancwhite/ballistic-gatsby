@@ -99,6 +99,21 @@ export const pageQuery = graphql`
             }
           }
         }
+        hero {
+          heading
+          copy
+          ctaLink
+          ctaTitle
+          img {
+            childImageSharp {
+              gatsbyImageData(
+                quality: 100, 
+                placeholder: BLURRED
+              )
+            }
+          }
+          imgAlt
+        }
       }
     }
   }

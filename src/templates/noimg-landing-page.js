@@ -93,6 +93,9 @@ export const pageQuery = graphql`
             }
           }
         }
+        hero {
+          heading
+        }
       }
     }
   }
