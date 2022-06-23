@@ -16,7 +16,9 @@ export const LandingPageTemplate = ({
   title,
 }) => {
   const PostContent = contentComponent || Content;
-  const heroImage = getImage(hero.img) || image;
+  if (hero.img) {
+    const heroImage = getImage(hero.img) || image;
+  }
 
   return (
     <>
