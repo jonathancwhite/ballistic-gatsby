@@ -21,6 +21,10 @@ export const WorkPageTemplate = ({
 }) => {
   const heroImage = getImage(hero.img);
   const ogImage = getSrc(seohelmet.ogimg);
+  const latestImage = getSrc(latest.img);
+  const whitepaperImage = getSrc(whitepaper.img);
+  const marketingImage = getSrc(marketing.img);
+  const emailImage = getSrc(emaillatest.img);
 
   return (
     <div>
@@ -44,7 +48,7 @@ export const WorkPageTemplate = ({
                 <p>{latest.copy}</p>
             </div>
             <div className="latest-success-img">
-                <img src={latest.img.childImageSharp.gatsbyImageData} alt={latest.imgAlt} />
+                <img src={latestImage} alt={latest.imgAlt} />
             </div>
         </main>
         <div className="whitepaper">
@@ -53,11 +57,11 @@ export const WorkPageTemplate = ({
                 <p>{whitepaper.copy}</p>
             </div>
             <div className="whitepaper-preview">
-                <img src={whitepaper.img.childImageSharp.gatsbyImageData} alt={whitepaper.imgAlt} />
+                <img src={whitepaperImage} alt={whitepaper.imgAlt} />
             </div>
         </div>
         <div className="fullwidth-img">
-            <img src={marketing.img.childImageSharp.gatsbyImageData} alt={marketing.imgAlt} />
+            <img src={marketingImage} alt={marketing.imgAlt} />
         </div>
         <section>
             <div className="emailmarketing-showcase">
@@ -65,7 +69,7 @@ export const WorkPageTemplate = ({
                     <h4>{emaillatest.title}</h4>
                     <p>{emaillatest.copy}</p>
                 </div>
-                <img src={emaillatest.img.childImageSharp.gatsbyImageData} alt={emaillatest.imgAlt} />
+                <img src={emailImage} alt={emaillatest.imgAlt} />
             </div>
         </section>
         <section>
