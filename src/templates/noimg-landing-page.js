@@ -7,7 +7,7 @@ import Hero from "../components/Global/Hero";
 import { Helmet } from "react-helmet";
 
 // eslint-disable-next-line
-export const LandingPageTemplate = ({
+export const NoIMGLandingPageTemplate = ({
   seohelmet,
   hero,
   content,
@@ -45,18 +45,18 @@ export const LandingPageTemplate = ({
   );
 };
 
-LandingPageTemplate.propTypes = {
+NoIMGLandingPageTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   title: PropTypes.string,
 };
 
-const LandingPage = ({ data }) => {
+const NoIMGLandingPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <LandingPageTemplate
+      <NoIMGLandingPageTemplate
         content={post.html}
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -65,16 +65,16 @@ const LandingPage = ({ data }) => {
   );
 };
 
-LandingPage.propTypes = {
+NoIMGLandingPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 };
 
-export default LandingPage;
+export default NoIMGLandingPage;
 
 export const pageQuery = graphql`
-  query LandingPageByID($id: String!) {
+  query NoIMGLandingPageByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
