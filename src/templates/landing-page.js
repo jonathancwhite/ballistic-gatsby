@@ -4,9 +4,11 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Global/Hero";
+import { Helmet } from "react-helmet";
 
 // eslint-disable-next-line
 export const LandingPageTemplate = ({
+  seohelmet,
   hero,
   content,
   contentComponent,
@@ -17,6 +19,14 @@ export const LandingPageTemplate = ({
 
   return (
     <>
+    <Helmet>
+      <title>{seohelmet.title}</title>
+      <link rel="canonical" href={seohelmet.canonical} />
+      <meta name="description" content={seohelmet.meta} />
+      <meta property="og:image" content={seohelmet.ogimg} />
+      <meta property="og:title" content={seohelmet.title} />
+      <meta property="og:description" content={seohelmet.meta} />
+    </Helmet>
     <Hero 
       pageTitle={hero.heading}
       ctaLink={hero.ctaLink}
