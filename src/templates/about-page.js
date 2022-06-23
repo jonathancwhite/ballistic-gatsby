@@ -116,9 +116,9 @@ export const aboutPageQuery = graphql`
           meta
           ogimg {
             childImageSharp {
-              gatsbyImageData {
+              gatsbyImageData (
                 quality: 100
-              }
+              )
             }
           }
         }
