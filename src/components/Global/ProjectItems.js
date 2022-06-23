@@ -2,12 +2,7 @@ import React from 'react'
 
 const ProjectItems = ({list}) => {
     let projectList = list
-    if (projectList.length < 1) {
-        projectList = null;
-        return <div></div>
-    }
-
-    return (
+    if (projectList) {
         <div className="otherprojects-grid">
             {projectList.map((item) => (
                 <a href={item.link}>
@@ -19,6 +14,10 @@ const ProjectItems = ({list}) => {
                 </a>
             ))}
         </div>
+    }
+
+    return (
+        <></>
     )
 }
 
