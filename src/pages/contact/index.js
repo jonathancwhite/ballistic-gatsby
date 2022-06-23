@@ -2,6 +2,7 @@ import * as React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
 import Hero from '../../components/Global/Hero';
+import HubspotForm from "../../components/Global/HubspotForm";
 
 function encode(data) {
   return Object.keys(data)
@@ -44,10 +45,7 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-              <script>
-                hbspt.forms.create({region: "na1",portalId: "19492985", formId: "9142183f-8dd5-406c-b144-f08114d57414"});
-              </script>
+              <HubspotForm />
              {/* <form
                 name="contact"
                 method="post"
