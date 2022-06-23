@@ -102,8 +102,6 @@ export const pageQuery = graphql`
         hero {
           heading
           copy
-          ctaLink
-          ctaTitle
           img {
             childImageSharp {
               gatsbyImageData(
