@@ -5,7 +5,6 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Global/Hero";
 import { Helmet } from "react-helmet";
-import { getImage } from "gatsby-plugin-image";
 
 // eslint-disable-next-line
 export const LandingPageTemplate = ({
@@ -16,7 +15,6 @@ export const LandingPageTemplate = ({
   title,
 }) => {
   const PostContent = contentComponent || Content;
-  const heroImage = getImage(hero.img) || image;
 
   return (
     <>
@@ -30,10 +28,6 @@ export const LandingPageTemplate = ({
     </Helmet>
     <Hero 
       pageTitle={hero.heading}
-      ctaLink={hero.ctaLink}
-      ctaTitle={hero.ctaTitle}
-      img={heroImage}
-      showcaseAlt={hero.imgAlt}
     />
     <section className="section">
       <div className="container content">

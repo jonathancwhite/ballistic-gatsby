@@ -1,5 +1,5 @@
 ---
-templateKey: landing-page
+templateKey: noimg-landing-page
 slug: terms-and-conditions
 seohelmet:
   title: Ballistic Agency | Terms & Conditions
