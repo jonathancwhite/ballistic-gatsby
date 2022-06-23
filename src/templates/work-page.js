@@ -151,6 +151,72 @@ export const pageQuery = graphql`
           }
           imgAlt
         }
+        latest {
+          title
+          copy
+          img {
+            childImageSharp {
+              gatsbyImageData(
+                quality: 100, 
+                placeholder: BLURRED
+              )
+            }
+          }
+          imgAlt
+        }
+        whitepaper {
+          title
+          copy
+          img {
+            childImageSharp {
+              gatsbyImageData(
+                quality: 100, 
+                placeholder: BLURRED
+              )
+            }
+          }
+          imgAlt
+        }
+        marketing {
+          img {
+            childImageSharp {
+              gatsbyImageData(
+                quality: 100, 
+                placeholder: BLURRED
+              )
+            }
+          }
+          imgAlt
+        }
+        emaillatest {
+          title 
+          copy 
+          img {
+            childImageSharp {
+              gatsbyImageData(
+                quality: 100, 
+                placeholder: BLURRED
+              )
+            }
+          }
+          imgAlt
+        }
+        projects {
+          title 
+          copy 
+          item {
+            logo {
+              childImageSharp {
+                gatsbyImageData(
+                  quality: 100, 
+                  placeholder: BLURRED
+                )
+              }
+            }
+            logoAlt
+            link
+          }
+        }
       }
     }
   }
