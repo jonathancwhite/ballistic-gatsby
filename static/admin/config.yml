@@ -617,8 +617,9 @@ collections:
       - {
           label: "Template Key",
           name: "templateKey",
-          widget: "hidden",
-          default: "landing-page",
+          widget: "select",
+          default: ["landing-page"],
+          options: ["landing-page", "noimg-landing-page"]
         }
       - { label: "Page Slug", name: "slug", widget: "string" }
       - {
