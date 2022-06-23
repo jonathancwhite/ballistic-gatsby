@@ -9,7 +9,7 @@ const ProjectItems = ({list}) => {
                     <div className="otherprojects-grid--item">
                     </div>
                     <div className="otherprojects-grid--logo">
-                        <img src={item.logo} alt={item.logoAlt} />
+                        <img src={item.logo.childImageSharp.gatsbyImageData} alt={item.logoAlt} />
                     </div>
                 </a>
             ))}

@@ -44,7 +44,7 @@ export const WorkPageTemplate = ({
                 <p>{latest.copy}</p>
             </div>
             <div className="latest-success-img">
-                <img src={latest.img} alt={latest.imgAlt} />
+                <img src={latest.img.childImageSharp.gatsbyImageData} alt={latest.imgAlt} />
             </div>
         </main>
         <div className="whitepaper">
@@ -53,11 +53,11 @@ export const WorkPageTemplate = ({
                 <p>{whitepaper.copy}</p>
             </div>
             <div className="whitepaper-preview">
-                <img src={whitepaper.img} alt={whitepaper.imgAlt} />
+                <img src={whitepaper.img.childImageSharp.gatsbyImageData} alt={whitepaper.imgAlt} />
             </div>
         </div>
         <div className="fullwidth-img">
-            <img src={marketing.img} alt={marketing.imgAlt} />
+            <img src={marketing.img.childImageSharp.gatsbyImageData} alt={marketing.imgAlt} />
         </div>
         <section>
             <div className="emailmarketing-showcase">
@@ -65,7 +65,7 @@ export const WorkPageTemplate = ({
                     <h4>{emaillatest.title}</h4>
                     <p>{emaillatest.copy}</p>
                 </div>
-                <img src={emaillatest.img} alt={emaillatest.imgAlt} />
+                <img src={emaillatest.img.childImageSharp.gatsbyImageData} alt={emaillatest.imgAlt} />
             </div>
         </section>
         <section>
