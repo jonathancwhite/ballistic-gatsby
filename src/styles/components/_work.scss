@@ -20,6 +20,10 @@
     gap: 2rem;
 
     &-copy {
+        h4 {
+            padding-bottom: 1rem;
+        }
+        padding-bottom: 2rem;
         width: 50%;
     }
     &-preview {
@@ -32,43 +36,34 @@
     }   
 }
 
-.caseStudy {
-    padding-top: calc($section-padding / 2);
-    display: flex;
-    gap: 1rem;
+.fullWidth-img {
+    width: 100%;
     img {
-        border-radius: 18px;
+        width: 100%;
     }
-    p {
-        padding-top: 1rem;
-        padding-right: 3rem;
-        &:last-child {
-            padding-top: 0;
-        }
-    }
-    .inlineImg {
-        padding: 2rem 0;
-        width: 90%;
-        img {
-            width: 100%;
-            border-radius: 0;
-        }
-    }
-    .cta_button {
-        margin-top: 2rem;
-        font-weight: 600;
-    }
+    margin-bottom: 2rem;
 }
 
-.fullWidth {
-    padding-bottom: calc($section-padding / 2);
+.emailmarketing-showcase {
+    .latest-success {
+        width: 70%;
+        h4 {
+            padding-bottom: 1rem;
+        }
+        padding-bottom: 2rem;
+    }
+    img {
+        width: 100%;
+        border-radius: 8px;
+    }
+    margin-bottom: 2rem;
 }
 
-.otherProjects {
+.otherprojects {
     padding-top: calc($section-padding / 2);
 }
 
-.projectGrid {
+.otherprojects-grid {
     padding-top: calc($section-padding / 2);
     display: flex;
     justify-content: space-evenly;
