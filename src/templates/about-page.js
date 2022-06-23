@@ -11,6 +11,7 @@ import SimpleSection from "../components/SimpleSection/SimpleSection";
 import OpenPositions from "../components/Team/OpenPositions";
 import Benefits from "../components/Team/Benefits";
 import CoreValues from "../components/CoreValues/CoreValues";
+import { Helmet } from "react-helmet";
 
 // eslint-disable-next-line
 export const AboutPageTemplate = ({ 
