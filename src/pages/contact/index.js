@@ -44,7 +44,11 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <form
+              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+              <script>
+                hbspt.forms.create({region: "na1",portalId: "19492985", formId: "9142183f-8dd5-406c-b144-f08114d57414"});
+              </script>
+             {/* <form
                 name="contact"
                 method="post"
                 action="/contact/thanks/"
@@ -52,7 +56,6 @@ export default class Index extends React.Component {
                 data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}
               >
-                {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                 <input type="hidden" name="form-name" value="contact" />
                 <div hidden>
                   <label>
@@ -109,7 +112,7 @@ export default class Index extends React.Component {
                     Send
                   </button>
                 </div>
-              </form>
+              </form> */}
             </div>
           </div>
         </section>
