@@ -10,7 +10,7 @@ seohelmet:
     at https://www.ballisticagency.com/.
 hero:
   heading: Terms & Conditions
-title: Terms & Conditions
+title: Terms and Conditions
 ---
 Welcome to Ballistic Agency's Website!
 
