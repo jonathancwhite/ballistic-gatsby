@@ -18,7 +18,7 @@ const HubspotForm = () => {
         <Helmet>
             <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"> </script>
         </Helmet>
-        <div id='#hubspotForm'></div>
+        <div id='hubspotForm'></div>
     </>
     )
 }
