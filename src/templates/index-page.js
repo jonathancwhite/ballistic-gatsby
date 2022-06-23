@@ -138,6 +138,7 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  seohelmet: PropTypes.object,
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
@@ -160,6 +161,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
+        seohelmet={frontmatter.seohelmet}
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
