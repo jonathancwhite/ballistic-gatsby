@@ -55,6 +55,7 @@ LandingPageTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   title: PropTypes.string,
+  seohelmet: PropTypes.object
 };
 
 const LandingPage = ({ data }) => {
@@ -86,6 +87,18 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        seohelmet {
+          title
+          canonical
+          meta
+          ogimg {
+            childImageSharp {
+              gatsbyImageData (
+                quality: 100
+              )
+            }
+          }
+        }
       }
     }
   }
