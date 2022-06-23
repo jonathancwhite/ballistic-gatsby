@@ -40,11 +40,11 @@ export const IndexPageTemplate = ({
   return (
     <div>
       <Helmet>
-        {/* <title>{seohelmet.title}</title>
+        <title>{seohelmet.title}</title>
         <meta name="description" content={seohelmet.meta} />
         <link rel="canonical" href={seohelmet.canonical} />
         <meta property="og:image" content={ogImage} />
-        <meta property="og:url" content={seohelmet.canonical} /> */}
+        <meta property="og:url" content={seohelmet.canonical} />
       </Helmet>
       <Hero
         pageTitle={heading}
