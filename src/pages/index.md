@@ -7,10 +7,10 @@ seohelmet:
   ogimg: /img/pahq-showcase.png
 image: /img/pahq-showcase.png
 imageAlt: Power Athlete Showcase - Screenshot of site
-heading: An eCommerce agency for high-growth brands.
+heading: An eCommerce agency for high growth brands.
 subheading: We build beautiful BigCommerce and Shopify websites that sell,
-  backed by managed eCommerce services including SEO, email marketing, and
-  conversion rate optimization.
+  backed by managed eCommerce services including Search Engine Optimization
+  (SEO), Email Marketing, and Conversion Rate Optimization (CRO).
 ctaTitle: Let's talk
 ctaLink: /contact-us
 ctaTitle2: View our work
