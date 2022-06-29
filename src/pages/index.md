@@ -22,26 +22,24 @@ brands:
   brandLogo4: /img/partner-logos_bigcomm.png
   brandLogo5: /img/partner-logos_bigcomm.png
 mainpitch:
-  heading: Creating the most efficient solutions for you and your clients.
+  heading: FACTS ARE BETTER THAN OPINIONS
   subheading: Optimized Ecommerce
   color: lightblue
   ctaTitle: Request a quote
   ctaLink: /contact-us
   imageOption: no-image
   col1: >
-    Officia veniam aliquip pariatur cupidatat aliqua enim occaecat dolore.
-    Consectetur tempor enim minim veniam minim consequat velit ipsum. Aliqua
-    laboris et nostrud magna adipisicing eiusmod consequat incididunt sint. In
-    eu minim consectetur exercitation do nulla aute excepteur dolore velit
-    deserunt excepteur labore et. Eiusmod adipisicing et eu sint mollit
-    incididunt excepteur elit occaecat velit id consectetur exercitation tempor.
-    Ea consequat nostrud ea mollit consequat ullamco. Labore esse consectetur et
-    cillum Lorem consequat veniam ut exercitation adipisicing.
-  col2: >
-    Aliqua laboris et nostrud magna adipisicing eiusmod consequat incididunt
-    sint. In eu minim consectetur exercitation do nulla aute excepteur dolore
-    velit deserunt excepteur labore et. Eiusmod adipisicing et eu sint mollit
-    incididunt excepteur elit occaecat velit id consectetur exercitation tempor.
+    We’ve built a high-impact agency around our Optimized eCommerce™ process
+    that uses facts, not opinions, to grow your business. We analyze the data
+    and couple it with the knowledge we’ve obtained from our successful
+    eCommerce sites since 2008.
+  col2: |-
+    Most eCommerce websites are underperforming in the following areas:
+
+    1. Website design & usability
+    2. Search Engine Optimization (SEO)
+    3. Conversion Rate Optimization (CRO)
+    4. Email Marketing
 partners:
   partnerLogo1: /img/partner-logos_bigcomm.png
   partnerLogo2: /img/partner-logos_bigcomm.png
