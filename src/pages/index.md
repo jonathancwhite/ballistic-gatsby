@@ -49,7 +49,7 @@ partners:
 about:
   sectionwidth: col-50
   heading: The country's most efficient ecommerce experts.
-  subheading: American owned & operated
+  subheading: American Owned & Operated
   color: gold
   ctaLink: /our-team
   columnText1: We offer competitive rates and allow our employees to learn on the job.
@@ -59,9 +59,10 @@ about:
   cta: Learn more
   columnTitle2: Quick job development
   copy: >
-    Our entire staff is located in the United States and we are proud of that!
-    In an age of offshore employment just to save costs, we strive in creating
-    the best while being the best.
+    In a time where it's increasingly common to cut corners and save costs by
+    outsourcing work, we've made a commitment to investing in the best talent
+    right here at home. By working with the best, we are able to create the best
+    and provide the best for our high-growth clients.
 services:
   heading: A future-proof approach to your business and ecommerce.
   subheading: Why Ballistic
