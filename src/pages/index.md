@@ -23,7 +23,7 @@ brands:
   brandLogo5: /img/partner-logos_bigcomm.png
 mainpitch:
   heading: FACTS ARE BETTER THAN OPINIONS
-  subheading: Optimized Ecommerce
+  subheading: Optimized eCommerce
   color: lightblue
   ctaTitle: Request a quote
   ctaLink: /contact-us
@@ -48,16 +48,17 @@ partners:
   partnerLogo5: /img/partner-logos_bigcomm.png
 about:
   sectionwidth: col-50
-  heading: The country's most efficient ecommerce experts.
+  heading: The country's most efficient eCommerce experts.
   subheading: American Owned & Operated
   color: gold
   ctaLink: /our-team
-  columnText1: We offer competitive rates and allow our employees to learn on the job.
-  columnText2: We have a pathway to success for each of our roles and will help
-    you become the best you!
-  columnTitle1: Learn on the job
+  columnText1: We offer competitive rates and a dynamic work environment.
+  columnText2: We invest in people, not positions. We follow our Foundations
+    growth track to become the best version of ourselves personally and
+    professionally.
+  columnTitle1: Discover More
   cta: Learn more
-  columnTitle2: Quick job development
+  columnTitle2: Growth & Development
   copy: >
     In a time where it's increasingly common to cut corners and save costs by
     outsourcing work, we've made a commitment to investing in the best talent
