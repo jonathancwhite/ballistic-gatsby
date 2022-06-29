@@ -65,13 +65,13 @@ about:
     right here at home. By working with the best, we are able to create the best
     and provide the best for our high-growth clients.
 services:
-  heading: A future-proof approach to your business and ecommerce.
+  heading: Make modern-day moves that bring the ROI.
   subheading: Why Ballistic
   emailText: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo
-    vel fringilla est ullamcorper eget. In pellentesque massa placerat duis
-    ultricies lacus.
+    With a data-driven approach, we combine the most powerful factors that lead
+    to successful campaigns resulting in conversion. From smokin' hot copy, to
+    beautiful creative designs, to audience optimization, and to comprehensive
+    testing, we take email to places it has never been before.
   seoText: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo
