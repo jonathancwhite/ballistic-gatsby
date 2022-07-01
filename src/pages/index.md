@@ -33,13 +33,9 @@ mainpitch:
     that uses facts, not opinions, to grow your business. We analyze the data
     and couple it with the knowledge we’ve obtained from our successful
     eCommerce sites since 2008.
-  col2: |-
-    Most eCommerce websites are underperforming in the following areas:
-
-    1. Website design & usability
-    2. Search Engine Optimization (SEO)
-    3. Conversion Rate Optimization (CRO)
-    4. Email Marketing
+  col2: Most eCommerce websites are underperforming today in web design &
+    usability, search engine optimization, and email marketing. How does yours
+    measure up?
 partners:
   partnerLogo1: /img/partner-logos_bigcomm.png
   partnerLogo2: /img/partner-logos_bigcomm.png
