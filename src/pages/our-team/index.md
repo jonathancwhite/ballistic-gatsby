@@ -45,24 +45,19 @@ seohelmet:
   ogimg: /img/ba_team_picture.jpeg
 title: About our values
 hero:
-  heading: The team behind the greatness
-  copy: Occaecat non Lorem duis cupidatat quis irure nostrud in sint. Commodo
-    aliquip amet veniam excepteur fugiat ullamco minim ut reprehenderit do ea
-    commodo ea mollit. Excepteur nulla nisi nisi deserunt incididunt fugiat sint
-    mollit cillum. Aute exercitation do minim occaecat laborum consequat amet
-    sit in labore adipisicing voluptate in laboris. Aute proident laborum eu
-    nostrud sint incididunt aute. Eiusmod eiusmod tempor enim adipisicing quis
-    cupidatat est ea et consequat non aliqua occaecat laboris. Nostrud culpa
-    proident ad ullamco dolor.
+  heading: How We Started
+  copy: ince 2008, Ballistic Agency has been deeply embedded in the digital
+    presence of our clients, working to increase brand awareness, customer
+    satisfaction, sales, and operational efficiency. We build and optimize the
+    websites of leading mid-market organizations and are their chief
+    problem-solvers for eCommerce advancement. We work very closely with our
+    clients to quickly and methodically execute their specific sales goals using
+    data and discovery to drive the evolution of their web presence.
   img: /img/ba_team_picture.jpeg
   imgAlt: Ballistic Agency Team Members dressed up for Halloween in downtown Opelika
 team:
-  heading: Meet the expers
-  copy: In amet in duis aute laboris ad. Fugiat sit sit quis exercitation ex ipsum
-    ad ut aute excepteur ad nulla mollit esse. Lorem mollit non tempor dolor ad
-    culpa magna quis. Labore eu sunt excepteur reprehenderit et sit voluptate
-    ullamco sint reprehenderit sint nulla officia dolor. Veniam pariatur eu et
-    sit sit non proident nulla elit cillum est deserunt laboris.
+  heading: Meet the Experts
+  copy: The brains. The beauty (not Jason). The core team of Ballistic Agency.
   member:
     - name: Jason Young
       title: Founder & CEO
@@ -72,14 +67,10 @@ team:
       title: Art Director
     - name: Aaron Blackmon
       title: Head of Business Development
-    - name: Stephen Bass
-      title: Website Performance Consultant
     - name: Jonathan White
       title: Sr. Web Developer
     - name: Matt Mersino
       title: Project Manager
-    - name: Sasha Damian
-      title: Graphic Designer
 openings:
   position:
     - title: Graphic Designer
