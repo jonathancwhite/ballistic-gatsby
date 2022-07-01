@@ -59,7 +59,7 @@ about:
     In a time where it's increasingly common to cut corners and save costs by
     outsourcing work, we've made a commitment to investing in the best talent
     right here at home. By working with the best, we are able to create the best
-    and provide the best for our high-growth clients.
+    and provide the best for our prestigious clients.
 services:
   heading: Make modern-day moves that bring the ROI.
   subheading: Why Ballistic
