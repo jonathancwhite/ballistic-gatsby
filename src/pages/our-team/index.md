@@ -46,7 +46,7 @@ seohelmet:
 title: About our values
 hero:
   heading: How We Started
-  copy: ince 2008, Ballistic Agency has been deeply embedded in the digital
+  copy: Since 2008, Ballistic Agency has been deeply embedded in the digital
     presence of our clients, working to increase brand awareness, customer
     satisfaction, sales, and operational efficiency. We build and optimize the
     websites of leading mid-market organizations and are their chief
