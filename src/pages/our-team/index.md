@@ -7,9 +7,9 @@ corevalues:
   corevalueList:
     - cvTitle: Fun
       cvCopy: >
-        When you build a great place to work, great work takes place. We
-        maintain a lighthearted spirit and take the time to eat together, drink
-        together, and have fun together.
+        When you have a great place to work, great work takes place. We maintain
+        a lighthearted spirit and take the time to eat together, drink together,
+        and have fun together.
     - cvTitle: Focused Growth
       cvCopy: >
         We build upon our foundations and expand our knowledge and abilities at
