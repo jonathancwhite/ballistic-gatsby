@@ -79,24 +79,21 @@ services:
     experts know how to create the most elegant solutions that convert for your
     business.
 nextsteps:
-  heading: The backbone for your future growth
-  subheading: Next steps
+  heading: Better Is Available.
+  subheading: The results are in...
   copy: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Consequat id porta nibh
-    venenatis cras sed. Aenean pharetra magna ac placerat vestibulum lectus
-    mauris ultrices eros. Viverra nibh cras pulvinar mattis nunc sed blandit
-    libero. Mattis pellentesque id nibh tortor id aliquet. Eu scelerisque felis
-    imperdiet proin.
+    Connect with the team at Ballistic Agency today and discover how we can help
+    you achieve your business goals faster. Below are a few examples of what our
+    clients have experienced on average after working with us.
   color: gold
   sectionwidth: col-70
 numbers:
-  num1: 200%
-  text1: some random fact can go here
-  num2: 10M+
-  text2: some random fact can go here
-  num3: 28%
-  text3: some random fact can go here
-  num4: 12+
-  text4: some random fact can go here
+  num1: 14%
+  text1: Increased Conversion Rate
+  num2: 19.8%
+  text2: Increased Revenue
+  num3: 11.6%
+  text3: Increased Sessions
+  num4: 10M
+  text4: Stat Here
 ---
