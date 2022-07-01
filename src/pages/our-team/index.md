@@ -1,41 +1,37 @@
 ---
 corevalues:
-  heading: We believe we can be the best while still having fun
+  heading: We believe strong foundations are built on strong values
   subheading: Our core values
-  copy: At Ballistic Agency, we believe our core values show our true value as a
-    company. We are the greatest group of individuals out there right now. This
-    is just random copy and I should not write it.
+  copy: At Ballistic Agency, we believe our core values are a reflection of who we
+    are and how we serve the world around us. It all begins with...
   corevalueList:
     - cvTitle: Fun
       cvCopy: >
-        Nostrud proident aute aliquip aute reprehenderit do culpa dolore
-        adipisicing Lorem veniam. Proident tempor duis tempor Lorem cillum.
-        Adipisicing anim consequat anim sit sit sit culpa laboris ipsum ea
-        consequat quis deserunt.
+        When you build a great place to work, great work takes place. We
+        maintain a lighthearted spirit and take the time to eat together, drink
+        together, and have fun together.
     - cvTitle: Focused Growth
       cvCopy: >
-        Nostrud proident aute aliquip aute reprehenderit do culpa dolore
-        adipisicing Lorem veniam. Proident tempor duis tempor Lorem cillum.
-        Adipisicing anim consequat anim sit sit sit culpa laboris ipsum ea
-        consequat quis deserunt.
+        We build upon our foundations and expand our knowledge and abilities at
+        all times to achieve our goals and create more value for ourselves, the
+        company, and our clients.
     - cvTitle: Radical Responsibility
       cvCopy: >
-        Nostrud proident aute aliquip aute reprehenderit do culpa dolore
-        adipisicing Lorem veniam. Proident tempor duis tempor Lorem cillum.
-        Adipisicing anim consequat anim sit sit sit culpa laboris ipsum ea
-        consequat quis deserunt.
+        We focus on problems that are within our control without complaining or
+        being a victim. If we don’t get the results we want, we find out why and
+        then fix the process that needs improvement.
     - cvTitle: Candor & Clarity
       cvCopy: >
-        Nostrud proident aute aliquip aute reprehenderit do culpa dolore
-        adipisicing Lorem veniam. Proident tempor duis tempor Lorem cillum.
-        Adipisicing anim consequat anim sit sit sit culpa laboris ipsum ea
-        consequat quis deserunt.
+        We are honest, straightforward, and thorough in discussions and
+        expectations. We give and receive constructive criticism respectfully
+        and with honor while asking for more information if something is unclear
+        or undefined.
     - cvTitle: Systematic Excellence
       cvCopy: >
-        Nostrud proident aute aliquip aute reprehenderit do culpa dolore
-        adipisicing Lorem veniam. Proident tempor duis tempor Lorem cillum.
-        Adipisicing anim consequat anim sit sit sit culpa laboris ipsum ea
-        consequat quis deserunt.
+        We use repeatable processes to consistently deliver high-quality work.
+        We document our best methods so that we have a growing process for
+        success. We focus on proven strategies and tools while eliminating
+        custom solutions that don't scale.
 path: /our-team
 templateKey: about-page
 seohelmet:
