@@ -68,7 +68,7 @@ services:
     to successful campaigns resulting in conversion. From smokin' hot copy, to
     beautiful creative designs, to audience optimization, and to comprehensive
     testing, we take email to places it has never been before.
-  seoText: Through technical analysis paired with a systematic approach, we take
+  seoText: Through technical analysis paired with a systematic strategy, we take
     sites that generate average search results and make them a contender for the
     top spots on SERPs (Search Engine Results Pages). Beat out the competition
     and see how "SEO done right" can mean a difference of millions in revenue.
