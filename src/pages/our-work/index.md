@@ -1,17 +1,17 @@
 ---
 templateKey: work-page
 seohelmet:
-  title: Ballistic Agency | Work that speaks for itself
+  title: Ballistic Agency | Our Prestigious Clients
   canonical: https://www.migratetobigcommerce.com/our-work
   meta: some random description
   ogimg: /img/android-chrome-512x512.png
 hero:
-  heading: Work That Speaks for Itself
-  copy: Lorem ipsum et enum li polis
+  heading: Work that impresses and inspires
+  copy: sample
   img: /img/pahq-showcase.png
   imgAlt: power athlete design
 latest:
-  title: Our latest successes
+  title: Our latest successes include...
   copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
