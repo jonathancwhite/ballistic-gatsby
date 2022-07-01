@@ -68,11 +68,10 @@ services:
     to successful campaigns resulting in conversion. From smokin' hot copy, to
     beautiful creative designs, to audience optimization, and to comprehensive
     testing, we take email to places it has never been before.
-  seoText: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo
-    vel fringilla est ullamcorper eget. In pellentesque massa placerat duis
-    ultricies lacus.
+  seoText: Through technical analysis paired with a systematic approach, we take
+    sites that generate average search results and make them a contender for the
+    top spots on SERPs (Search Engine Results Pages). Beat out the competition
+    and see how "SEO done right" can mean a difference of millions in revenue.
   devText: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo
