@@ -73,10 +73,11 @@ services:
     top spots on SERPs (Search Engine Results Pages). Beat out the competition
     and see how "SEO done right" can mean a difference of millions in revenue.
   devText: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo
-    vel fringilla est ullamcorper eget. In pellentesque massa placerat duis
-    ultricies lacus.
+    We design and develop optimized websites based on each client's specific
+    needs, all while using a powerful tech stack that is built for performance.
+    From small development needs to full scale site re-platforming, our team of
+    experts know how to create the most elegant solutions that convert for your
+    business.
 nextsteps:
   heading: The backbone for your future growth
   subheading: Next steps
