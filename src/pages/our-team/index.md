@@ -44,7 +44,7 @@ hero:
   copy: Since 2008, Ballistic Agency has been deeply embedded in the digital
     presence of our clients, working to increase brand awareness, customer
     satisfaction, sales, and operational efficiency. We build and optimize the
-    websites of leading mid-market organizations and are their chief
+    websites of leading mid-market organizations while serving as their chief
     problem-solvers for eCommerce advancement. We work very closely with our
     clients to quickly and methodically execute their specific sales goals using
     data and discovery to drive the evolution of their web presence.
