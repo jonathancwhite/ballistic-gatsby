@@ -24,8 +24,7 @@ corevalues:
       cvCopy: >
         We are honest, straightforward, and thorough in discussions and
         expectations. We give and receive constructive criticism respectfully
-        and with honor while asking for more information if something is unclear
-        or undefined.
+        while asking for more information if something is unclear or undefined.
     - cvTitle: Systematic Excellence
       cvCopy: >
         We use repeatable processes to consistently deliver high-quality work.
