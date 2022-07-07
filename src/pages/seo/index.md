@@ -7,29 +7,32 @@ seohelmet:
     the page
   ogimg: /img/seo-showcase.png
 hero:
-  heading: Your Goals. Your Traffic. Our Problem.
+  heading: Our proven strategy for your success
   ctaText: Get your SEO audit
   ctaLink: /seo-audit
   img: /img/seo-showcase.png
   imgAlt: Search Engine Optimization dashboard for reports
 mainpitch:
-  heading: Trusted by the world's best
-  copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
+  heading: Optimize Your Website To Rank Higher
+  copy: Optimizing your website to rank higher on SERPs (Search Engine Results
+    Pages) can seem like an impossible task given the millions of website pages
+    in existence. Unfortunately, companies often attempt to tackle SEO
+    all-at-once without the specialized tools and data needed to bring a
+    meaningful ROI to this highly-complex process.
 brands:
   blist:
     - img: /img/partner-logos_bigcomm.png
       imgAlt: BigCommerce Logo
 secondary:
-  heading: Focus on running your business and let us grow it
-  subheading: Why Ballistic
-  copy: Sint quis proident nisi est nulla consectetur nulla ex consectetur sit
-    enim sint qui. Laborum in id ipsum veniam ex velit. Sunt ex adipisicing ea
-    occaecat ex adipisicing dolore non elit id ea labore eiusmod. Aliqua
-    proident incididunt ipsum ullamco. Anim cillum ea proident ullamco laboris.
-    Laborum eiusmod duis deserunt ullamco ipsum eiusmod consequat.
+  heading: Why Choose Us?
+  subheading: The Experts at Ballistic Agency
+  copy: SEO (Search Engine Optimization) done right can move your website pages
+    from being buried on page 10 to beating out your competitors on page one.
+    That’s why we focus on developing our clients a comprehensive SEO plan - one
+    that can translate into a difference of millions of dollars in revenue.
+    Ballistic Agency provides a turn-key solution to SEO that most agencies
+    can't or won't. We come alongside you and do a deep dive into your industry,
+    becoming a valuable extension of your team and an advocate for your success.
   img: /img/blog-index.jpg
   imgAlt: Some random image that I had
 finalpitch:
