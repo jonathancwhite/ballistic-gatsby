@@ -7,7 +7,7 @@ seohelmet:
     the page
   ogimg: /img/products-full-width.jpg
 hero:
-  heading: Reach Your Audience Where They Go Every Day
+  heading: Reach Your Audience Where They Are
   ctaText: Get Started
   ctaLink: /email-roi
   img: /img/products-grid3.jpg
