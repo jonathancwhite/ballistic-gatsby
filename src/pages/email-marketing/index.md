@@ -41,10 +41,7 @@ secondary:
 finalpitch:
   heading: How We Do It
   subheading: The secret sauce...
-  copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  copy: Well, we can't just give you the entire recipe now. That would take away
+    all the fun. But we can share a few of the primary ingredients that we've
+    included over the years to make email marketing a masterpiece.
 ---
