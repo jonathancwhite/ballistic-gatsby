@@ -26,14 +26,17 @@ brands:
     - img: /img/pws-logo.png
     - img: /img/sportsmansfinest-logo.png
 secondary:
-  heading: Email marketing the easy way
-  subheading: Why Ballistic
-  copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  heading: The right team. The right partners. The right tools.
+  subheading: Why Ballistic?
+  copy: Creating successful email marketing campaigns that lead to conversion is
+    about more than the email itself. It's about everything that comes before
+    you hit "send." Ballistic Agency's email experts have developed deep
+    partnerships with some of the world's greatest technology providers,
+    acquiring access to the right tools, education, and support that most
+    companies could only hope for. As a result, Ballistic Agency tailors every
+    element of an email marketing strategy to the specific needs of each and
+    every client. Your goals and challenges are unique to you, and they deserve
+    a custom-level of treatment.
   img: /img/flavor_wheel.jpg
 finalpitch:
   heading: Our technology outweighs the competition
