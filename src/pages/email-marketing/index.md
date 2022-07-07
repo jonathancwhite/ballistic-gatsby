@@ -52,5 +52,10 @@ finalpitch:
     way possible, while also giving them a unique and memorable experience.
     We'll lean on our artists to craft beautifully designed emails that are not
     only appealing to the eye, but also compelling to the mind - leading people
-    to take meaningful action.
+    to take meaningful action. As we take each email through rigorous testing to
+    ensure deliverability, we will also have an eye on the performance of
+    previous campaigns and active sequences, making sure that your emails are
+    performing at or above industry benchmarks. And when it's all said and done,
+    you'll receive regular reports and an opportunity to discuss performance and
+    planning with our team of experts.
 ---
