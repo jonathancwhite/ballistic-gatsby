@@ -36,20 +36,13 @@ secondary:
   img: /img/blog-index.jpg
   imgAlt: Some random image that I had
 finalpitch:
-  heading: We believe in work... hard work.
-  copy: >-
-    Nisi in sint in ullamco Lorem pariatur aliqua voluptate ea aliqua. Proident
-    fugiat veniam voluptate pariatur est. Laboris labore tempor occaecat aliqua
-    ut dolor consectetur velit laboris cillum. Aute aliqua laboris amet labore
-    aute nulla ex Lorem. Sunt dolore cupidatat labore id ullamco Lorem nisi
-    Lorem aliqua. Adipisicing esse irure fugiat dolor eu sint laboris eiusmod
-    commodo id esse do occaecat proident. Culpa laboris amet aliqua aliqua non.
-    Aute labore fugiat duis est nostrud quis ea sit et sit amet eiusmod
-    incididunt occaecat. Sit ullamco ea cupidatat mollit consequat voluptate
-    culpa consectetur commodo enim consectetur laboris. Quis nulla enim commodo
-    in nulla sint est labore. Culpa consectetur aute nisi ex laborum qui
-    occaecat.
-
-
-    Veniam dolore velit eiusmod consectetur non nostrud. Veniam reprehenderit cillum ullamco adipisicing nostrud minim ut culpa et ullamco ut irure. Ea esse sint exercitation ullamco veniam. Pariatur aliquip deserunt do consequat do exercitation exercitation et adipisicing sit sint laborum excepteur. Esse esse duis nostrud enim exercitation velit dolor duis minim. Commodo incididunt eu proident dolore aute commodo id exercitation. Sunt ullamco ea eu eu ad ea incididunt fugiat proident sunt. Nisi fugiat tempor laborum ea minim ad. Excepteur enim fugiat dolore non reprehenderit sint minim do. Qui in consectetur cillum anim magna ad aute anim fugiat. Minim irure consequat et consectetur occaecat amet pariatur. Consectetur culpa esse occaecat magna do magna enim cupidatat.
+  heading: How Do We Accomplish This?
+  copy: One thing is clear - There is no magic bullet to get you to position one.
+    With millions of developing websites, constantly changing search engine
+    algorithms, and evolving consumer behavior, you must have a mature strategy
+    that is effective at hitting a moving target. This is what we pride
+    ourselves on. Through a combination of discovery processes, iterative
+    analysis, content strategy, and easy-to-understand reporting designed just
+    for you, we make sure you know the opportunities and challenges each step of
+    the way as your site races toward the top of the rankings.
 ---
