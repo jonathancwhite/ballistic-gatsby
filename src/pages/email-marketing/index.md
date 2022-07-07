@@ -45,17 +45,17 @@ finalpitch:
     all the fun. But we can share a few of the primary ingredients that we've
     included over the years to make email marketing a masterpiece. It all starts
     in the preparation. From proper setup to abide by anti-Spam laws, to
-    connections with platforms, and to a "health analysis" of your existing
-    email marketing, we build your foundations strong before any new campaigns
-    are created. Next, we will consider audience optimization and ways we can
-    take a laser-focused approach to reaching your people in the most effective
-    way possible, while also giving them a unique and memorable experience.
-    We'll lean on our artists to craft beautifully designed emails that are not
-    only appealing to the eye, but also compelling to the mind - leading people
-    to take meaningful action. As we take each email through rigorous testing to
-    ensure deliverability, we will also have an eye on the performance of
-    previous campaigns and active sequences, making sure that your emails are
-    performing at or above industry benchmarks. And when it's all said and done,
-    you'll receive regular reports and an opportunity to discuss performance and
-    planning with our team of experts.
+    connections with required platforms, and to a "health analysis" of your
+    existing email marketing, we build your foundations strong before any new
+    campaigns are created. Next, we consider audience optimization and ways we
+    can take a laser-focused approach to reaching your people in the most
+    effective way possible, while also giving them a unique and memorable
+    experience. We'll lean on our artists to craft beautifully designed emails
+    that are not only appealing to the eye, but also compelling to the mind -
+    leading people to take meaningful action. As we take each email through
+    rigorous testing to ensure deliverability, we will also have an eye on the
+    performance of previous campaigns and active sequences, making sure that
+    your emails are performing at or above industry benchmarks. And when it's
+    all said and done, you'll receive regular reports and an opportunity to
+    discuss performance and planning with our team of experts.
 ---
