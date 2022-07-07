@@ -31,12 +31,12 @@ secondary:
   copy: Creating successful email marketing campaigns that lead to conversion is
     about more than the email itself. It's about everything that comes before
     you hit "send." Ballistic Agency's email experts have developed deep
-    partnerships with some of the world's greatest technology providers,
-    acquiring access to the right tools, education, and support that most
-    companies could only hope for. As a result, Ballistic Agency tailors every
-    element of an email marketing strategy to the specific needs of each and
-    every client. Your goals and challenges are unique to you, and they deserve
-    a custom-level of treatment.
+    partnerships with some of the world's greatest technology providers; earning
+    access to the right tools, education, and support that most companies could
+    only hope for. As a result, Ballistic Agency tailors every element of an
+    email marketing strategy to the specific needs of each and every client.
+    Your goals and challenges are unique to you, and they deserve a custom-level
+    of treatment.
   img: /img/flavor_wheel.jpg
 finalpitch:
   heading: How We Do It
