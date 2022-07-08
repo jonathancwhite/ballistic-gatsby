@@ -28,14 +28,13 @@ brands:
     - img: /img/pws-logo.png
     - img: /img/sportsmansfinest-logo.png
 secondary:
-  heading: Dev the easy way
+  heading: A History of Helping Others Win
   subheading: Why Ballistic
-  copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  copy: We have never had a client move away from a platform we have strategically
+    chosen for them. By staying on top of the latest trends and technology, we
+    have helped small and mid-market companies accelerate their growth and
+    become industry leaders, all while utilizing a tech stack that provides
+    scalability, flexibility, and power.
   img: /img/flavor_wheel.jpg
 finalpitch:
   heading: Our technology outweighs the competition
