@@ -37,12 +37,16 @@ secondary:
     scalability, flexibility, and power.
   img: /img/flavor_wheel.jpg
 finalpitch:
-  heading: Our technology outweighs the competition
-  subheading: Klaviyo Partner
-  copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  heading: Building For The Future
+  subheading: BigCommerce Preferred Partner
+  copy: As many companies grow and begin to set bigger goals for the future, they
+    often realize - "What got you here, won't get you there." Sometimes you need
+    a more powerful, scalable, and user-friendly solution to support your
+    eCommerce growth. Look no further than BigCommerce. Ballistic Agency has
+    been re-platforming clients onto BigCommerce since 2011 with great success,
+    and in so doing we have earned the rare status of being a BigCommerce
+    Preferred Partner. What does this mean for you? Simply put, Ballistic Agency
+    will build your custom BigCommerce site bigger, faster, and with more power
+    than your existing solutions so that you can accelerate toward your
+    eCommerce goals.
 ---
