@@ -17,8 +17,8 @@ mainpitch:
   copy: >-
     Whether you are designing, developing, or re-platforming an eCommerce
     website, one thing is for certain - nothing is simple. But the right
-    implementation by the professionals can lead to an amazing combination of
-    cost savings, time savings, and revenue growth for your business.
+    implementation by the right professionals can lead to an amazing combination
+    of cost savings, time savings, and revenue growth for your business.
 
 
     Ballistic Agency has been designing websites for high growth companies since 2009 with a fantastic track record of success. We can help you reach your goals with our proven formula for website design that includes in-depth research, data analysis, and artistic creativity on top of a tech stack that's built for performance. We build the foundation you need to excel at building an online experience that includes catalog management, shipping, search engine optimization, conversion rate optimization, and ultimately, user satisfaction.
