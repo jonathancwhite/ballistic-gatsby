@@ -7,19 +7,21 @@ seohelmet:
     the page
   ogimg: /img/products-full-width.jpg
 hero:
-  heading: Web Development
-  ctaText: Get our help
+  heading: Scalable. Flexible. Powerful.
+  ctaText: Get started
   ctaLink: /contact-us
   img: /img/products-grid3.jpg
   imgAlt: random image
 mainpitch:
-  heading: This is the easiest money that you can get
-  copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  heading: Go With The Pros
+  copy: >-
+    Whether you are designing, developing, or re-platforming an eCommerce
+    website, one thing is for certain - nothing is simple. But the right
+    implementation by the professionals can lead to an amazing combination of
+    cost savings, time savings, and revenue growth for your business.
+
+
+    Ballistic Agency has been designing websites for high growth companies since 2009 with a fantastic track record of success. We can help you reach your goals with our proven formula for website design that includes in-depth research, data analysis, and artistic creativity on top of a tech stack that's built for performance. We build the foundation you need to excel at building an online experience that includes catalog management, shipping, search engine optimization, conversion rate optimization, and ultimately, user satisfaction.
 brands:
   blist:
     - img: /img/lehigh-logo.png
